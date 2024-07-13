@@ -7,10 +7,25 @@
 }
 
 body {
-    width: 1900px;
-    height: auto;
+    width: auto;
     background-color: black;
     position: relative;
+    padding-bottom: 280px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-corner {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(46, 46, 46, .5);
+    border-radius: 5px;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
 }
 
 
@@ -155,8 +170,9 @@ nav div button:hover {
     width: 100%;
     max-width: 220px;
     background: #101010;
-    height: min-content;
+    height: auto;
     overflow: auto;
+    z-index: 3;
 }
 
 .menuVertical strong {
@@ -210,11 +226,14 @@ nav div button:hover {
 
 #contenido {
     position: relative;
-    top: 50px;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 }
+
+
+/*---css bienvenida--*/
+
 
 section .bienvenida {
     width: 50%;
@@ -237,7 +256,7 @@ section .bienvenida {
     flex-direction: column;
     align-items: center;
     position: relative ;
-    left: 110px;
+    margin-left: 220px;
 }
 
 .tamañoImgCaruselVeh img {
@@ -288,7 +307,10 @@ section .bienvenida {
 
 #contenidoInformativo{
     position: relative;
-    left: 590px;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 590px;
 }
 
 h3 {
@@ -302,7 +324,7 @@ h3:hover {
 }
 
 .informacionVeh {
-    width: 50%;
+    width: auto;
     height: 50%;
     background-color: #202020;
     padding: 25px;
@@ -334,13 +356,16 @@ h3:hover {
 
 
 footer {
-    position: sticky;
+    position: absolute;
     font-family: arial;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/istockphoto-1142581656-2048x2048.jpg);
     background-size: cover;
     background-position-y: 215%;
     height: 240px;
-    margin-top: 80px;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+    
 }
 
 body .footer {

@@ -7,10 +7,25 @@
 }
 
 body {
-    width: 1900px;
-    height: auto;
+    width: auto;
     background-color: black;
     position: relative;
+    padding-bottom: 240px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-corner {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(46, 46, 46, .5);
+    border-radius: 5px;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
 }
 
 
@@ -151,12 +166,13 @@ nav div button:hover {
 
 
 .menuVertical {
-    position: absolute;
+    position: sticky;
     width: 100%;
     max-width: 220px;
     background: #101010;
-    height: 1370px;
+    height: 1350px;
     overflow: auto;
+    z-index: 3;
 }
 
 .menuVertical strong {
@@ -205,10 +221,23 @@ nav div button:hover {
 }
 
 
+/*---css contenido---*/
+
+
+.contenido {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
 /*---css bienvenida--*/
 
 
 section .bienvenida {
+    position: relative;
     width: 50%;
     height: 50%;
     background-color: #202020;
@@ -229,7 +258,7 @@ section .bienvenida {
     flex-direction: column;
     align-items: center;
     position: relative ;
-    left: 110px;
+    margin-left: 220px;
 }
 
 .caruselNoticias h2 {
@@ -338,13 +367,15 @@ section .bienvenida {
 
 
 footer {
-    position: sticky;
+    position: absolute;
     font-family: arial;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/istockphoto-1142581656-2048x2048.jpg);
     background-size: cover;
     background-position-y: 215%;
     height: 240px;
-    margin-top: 80px;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
 }
 
 body .footer {
