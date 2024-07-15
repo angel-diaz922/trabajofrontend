@@ -1,0 +1,140 @@
+/*---css contenido---*/
+
+
+.contenido {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/*---css bienvenida--*/
+
+
+section .bienvenida {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black inset;
+    margin-top: 50px;
+    margin-left: 590px;
+    text-align: center;
+}
+
+
+/*---css carrusel noticias---*/
+
+
+.secCarusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative ;
+    margin-left: 220px;
+}
+
+.caruselNoticias h2 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.tamañoImgCaruselNot img {
+    min-height: 500px;
+    min-width: 1000px;
+    max-height: 520px;
+    max-width: 1020px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.estTexto {
+    background-color: rgba(16, 16, 16, .5);
+    color: white;
+    border-radius: 5px;
+    margin-top: 0;
+    padding: 0;
+    width: 1000px;
+    left: 10px;
+    text-align: center;
+}
+
+.estTexto h5 {
+    font-size: 35px;
+}
+
+.estTexto h5:hover {
+    transform: scale(1.1);
+}
+
+.estTexto p {
+    color: #bdbdbd;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*---css carrusel vehiculos---*/
+
+
+.contenedorCar {
+    background-color: #202020;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.car1 {
+    float: left;
+    margin: 20px;
+}
+
+.car2 {
+    float: right;
+    margin: 20px;
+}
+
+.caruselVehiculos a {
+    text-decoration: none;
+    color: #424242;
+} 
+
+.caruselVehiculos a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.tamañoImgCaruselVeh img {
+    min-height: 250px;
+    min-width: 500px;
+    max-height: 260px;
+    max-width: 510px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+.estTextoVeh {
+    background-color: rgba(16, 16, 16, .5);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.nombre {
+    color: white;
+}
+
+.estTextoVeh h5:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.estTextoVeh h5 {
+    font-size: 35px;
+}

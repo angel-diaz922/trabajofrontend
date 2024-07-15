@@ -1,0 +1,132 @@
+
+/*---css contenido---*/
+
+
+.contenido {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/*---css bienvenida--*/
+
+
+section .bienvenida {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black inset;
+    margin-top: 50px;
+    margin-left: 590px;
+    text-align: center;
+}
+
+
+/*---css carrusel vehiculos---*/
+
+
+.secCarusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative ;
+    margin-left: 220px;
+}
+
+.tamañoImgCaruselVeh img {
+    min-height: 600px;
+    min-width: 1000px;
+    max-height: 620px;
+    max-width: 1020px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.tamañoImgCaruselVeh h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.caruselVehiculos a {
+    text-decoration: none;
+    color: #424242;
+} 
+
+.caruselVehiculos a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.estTextoVeh {
+    background-color: rgba(16, 16, 16, .5);
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px;
+}
+
+.estTextoVeh h5:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.estTextoVeh h5 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/*---css bloques informativos--*/
+
+
+#contenidoInformativo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: #464646;
+}
+
+.informacionVeh {
+    width: auto;
+    height: 50%;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black inset;
+}
+
+.informacionVeh img {
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.informacionVeh b {
+    font-size: 25px;
+}
+
+.informacionVeh h3 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.centrado {
+    text-align: center;
+}
