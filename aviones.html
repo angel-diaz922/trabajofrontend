@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+        <link rel="stylesheet" type="text/css" href="./recursos/css/EstiloAviones.css">
+       <title>Poder Militar</title>
+    </head>
+    <body>
+       <header class="header">
+            <div id="logo">
+                <img src="./recursos/imagenes/fondos/images.png" alt="logo de la pagina">
+            </div>
+            <h1><strong id="titulo">Poder Militar</strong></h1>    
+            <nav>
+                <ul class="principal">
+                    <li><a href="http://127.0.0.1:5500/index.html#noticias">Noticias</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#Quien%C3%A9sSomos">Quienés somos</a></li>
+                </ul>
+                <a id="logoBusqueda" href="#"><button>Busqueda <i class="las la-search"></i></button></a>
+            </nav>
+        </header>
+
+            <!-- lista desplegable con bootstrap -->
+        
+            
+        <nav id="navHorizontal">
+            <div  class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Francia</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Reino Unido</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>EE.UU</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>URSS</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Alemania</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Japón</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+        </nav>  
+
+        <nav class="menuVertical">
+            <a><strong>Francia</strong></a>
+            <br>
+            <a href="#avionesFrancia"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="#VG-30">Arsenal VG-30</a></li>
+                    <li><a href="#S.510">Bleriot-spad S.510</a></li>
+                    <li><a href="#693">Breguet 693</a></li>
+                    <li><a href="#">Caudron C.714</a></li>
+                    <li><a href="#">Dewoitine D.520</a></li>
+                    <li><a href="#">LeO 451</a></li>
+                    <li><a href="#">Morane-Saulnier MS.406</a></li>
+                    <li><a href="#">Potez 63</a></li>
+                </ul>    
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesfrancia"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Char">Char B1</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#FCM">FCM 36</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Hotchkiss">Hotchkiss H35</a></li>
+                    <li><a href="#">Panhard</a></li>
+                    <li><a href="#">Renault R35</a></li>
+                    <li><a href="#">Renault ACG1</a></li>
+                    <li><a href="#">Renault AMR 33</a></li>
+                    <li><a href="#">Renault UE 31</a></li>
+                    <li><a href="#">Side Gnome y Rhone</a></li>
+                    <li><a href="#">Somua S35</a></li>
+                </ul>
+            <a><strong>Reino Unido</strong></a>
+            <br>
+            <a href="#avionesReino"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="#Lancaster">Avro Lancaster</a></li>
+                    <li><a href="#Manchester">Avro Manchester</a></li>
+                    <li><a href="#Beaufighter">Britol Beaufighter</a></li>
+                    <li><a href="#">Britol Beaufort</a></li>
+                    <li><a href="#">Britol Blenheim</a></li>
+                    <li><a href="#">Britol Brigand</a></li>
+                    <li><a href="#">DH.98 Mosquito</a></li>
+                    <li><a href="#">Fairey Firefly</a></li>
+                    <li><a href="#">Gloster Gauntiet</a></li>
+                    <li><a href="#">Gloster Gladiator</a></li>
+                    <li><a href="#">Handley Page Halifax</a></li>
+                    <li><a href="#">Hawker Hurricane</a></li>
+                    <li><a href="#">Hawker Tempest</a></li>
+                    <li><a href="#">Hawker Typhoon</a></li>
+                    <li><a href="#">Short Stirlig</a></li>
+                    <li><a href="#">Supermarine Seafire</a></li>
+                    <li><a href="#">Supermarine Spitifire</a></li>
+                    <li><a href="#">Supermarine Stranraer</a></li>
+                    <li><a href="#">Vickers Wellington</a></li>
+                </ul>   
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesReino"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Comet">A34 Comet</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Churchill">Churchill</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Cruiser">Cruiser Mk I</a></li>
+                    <li><a href="#">Cruiser Mk II</a></li>
+                    <li><a href="#">Crusander</a></li>
+                    <li><a href="#">M3 Lee/Grant</a></li>
+                    <li><a href="#">Matilda I</a></li>
+                    <li><a href="#">Matilda II</a></li>
+                    <li><a href="#">Mk VIII Cromwell</a></li>
+                    <li><a href="#">Sherman Firefly</a></li>
+                    <li><a href="#">Tanque Rino</a></li>
+                    <li><a href="#">TOG II</a></li>
+                    <li><a href="#">TOG1</a></li>
+                    <li><a href="#">Valentine Mk.II</a></li>
+                </ul>
+            <a><strong>EE.UU</strong></a>
+            <br>
+            <a href="#avionesEE.UU"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="#Havoc">A-20 Havoc</a></li>
+                    <li><a href="#Apache">A-36 Apache</a></li>
+                    <li><a href="#Fortress">B-17 Flying Fortress</a></li>
+                    <li><a href="#">B-24 Liberator</a></li>
+                    <li><a href="#">B-25 Mitchell</a></li>
+                    <li><a href="#">B-29 Superfortress</a></li>
+                    <li><a href="#">BTD Destroyer</a></li>
+                    <li><a href="#">F2A Buffalo</a></li>
+                    <li><a href="#">F4F Wildcat</a></li>
+                    <li><a href="#">F4U Corsair</a></li>
+                    <li><a href="#">F6F Hellcat</a></li>
+                    <li><a href="#">P-38 Lightning</a></li>
+                    <li><a href="#">P-35</a></li>
+                    <li><a href="#">P-36 Hawk</a></li>
+                    <li><a href="#">P-39 Airacobra</a></li>
+                    <li><a href="#">P-40 Warhawk</a></li>
+                    <li><a href="#">P-47 Thunderbolt</a></li>
+                    <li><a href="#">P-51D Mustang</a></li>
+                    <li><a href="#">P-61 Black Widow</a></li>
+                    <li><a href="#">P-63 Kingcobra</a></li>
+                    <li><a href="#">SB2</a></li>
+                    <li><a href="#">SBD</a></li>
+                    <li><a href="#">T-6 Texan</a></li>
+                    <li><a href="#">TBF Avenger</a></li>
+                </ul>
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesEE.UU"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#M2">M2</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Lee/Grant">M3 Lee/Grant</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Stuart">M3 Stuart</a></li>
+                    <li><a href="#">M4 Sherman</a></li>
+                    <li><a href="#">M10 Wolverine</a></li>
+                    <li><a href="#">M18 Hellcat</a></li>
+                    <li><a href="#">M22 Locust</a></li>
+                    <li><a href="#">M24 Chaffee</a></li>
+                    <li><a href="#">M26 Pershing</a></li>
+                    <li><a href="#">M36 Jackson</a></li>
+                </ul>
+            <a><strong>URSS</strong></a>
+            <br>
+            <a href="#avionesURSS"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="#I-15">I-15</a></li>
+                    <li><a href="#I-16">I-16</a></li>
+                    <li><a href="#Il-10">Il-10</a></li>
+                    <li><a href="#">Il-2</a></li>
+                    <li><a href="#">Il-4</a></li>
+                    <li><a href="#">La-5</a></li>
+                    <li><a href="#">La-7</a></li>
+                    <li><a href="#">LaGG-3</a></li>
+                    <li><a href="#">MiG-3</a></li>
+                    <li><a href="#">Pe-2</a></li>
+                    <li><a href="#">Pe-3</a></li>
+                    <li><a href="#">Pe-8</a></li>
+                    <li><a href="#">Po-2</a></li>
+                    <li><a href="#">SB</a></li>
+                    <li><a href="#">Su-2</a></li>
+                    <li><a href="#">TB-3</a></li>
+                    <li><a href="#">Tu-2</a></li>
+                    <li><a href="#">Yak-1</a></li>
+                    <li><a href="#">Yak-3</a></li>
+                    <li><a href="#">Yak-9</a></li>
+                    <li><a href="#">Yer-2</a></li>
+                </ul>
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesURSS"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#BT-7">BT-7</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#IS-2">IS-2</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#KV-1">KV-1</a></li>
+                    <li><a href="#">KV-2</a></li>
+                    <li><a href="#">T-26</a></li>
+                    <li><a href="#">T-28</a></li>
+                    <li><a href="#">T-34</a></li>
+                    <li><a href="#">T-35</a></li>
+                    <li><a href="#">T-37A</a></li>
+                    <li><a href="#">T-38</a></li>
+                    <li><a href="#">T-40</a></li>
+                    <li><a href="#">T-50</a></li>
+                    <li><a href="#">T-60</a></li>
+                    <li><a href="#">T-70</a></li>
+                </ul>
+            <a><strong>Alemania</strong></a>
+            <br>
+            <a href="#avionesAlemania"><b>Aviones</b></a>    
+                <ul>
+                    <li><a href="#109">Bf 109</a></li>
+                    <li><a href="#110">Bf 110</a></li>
+                    <li><a href="#17">Do 17</a></li>
+                    <li><a href="#">Do 215</a></li>
+                    <li><a href="#">Do 335</a></li>
+                    <li><a href="#">Fw 190</a></li>
+                    <li><a href="#">Fw 200</a></li>
+                    <li><a href="#">He 111</a></li>
+                    <li><a href="#">He 118</a></li>
+                    <li><a href="#">He 177</a></li>
+                    <li><a href="#">Hs 129</a></li>
+                    <li><a href="#">Ju 188</a></li>
+                    <li><a href="#">Ju 87</a></li>
+                    <li><a href="#">Ju 88</a></li>
+                    <li><a href="#">Me 163</a></li>
+                    <li><a href="#">Me 262</a></li>
+                    <li><a href="#">Ta 152</a></li>
+                </ul>
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesAlemania"><b>Tanques</b></a>
+                <ul> 
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Dicker">Dicker Max</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Flakpanzer">Flakpanzer 38(t)</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Grille">Grille</a></li>
+                    <li><a href="#">Jagdpanther</a></li>
+                    <li><a href="#">Jagdpanzer IV</a></li>
+                    <li><a href="#">Jagdtiger</a></li>
+                    <li><a href="#">Jagpanzer 38(t)</a></li>
+                    <li><a href="#">Kugelblitz</a></li>
+                    <li><a href="#">Mander II</a></li>
+                    <li><a href="#">Mander III</a></li>
+                    <li><a href="#">Nashorn</a></li>
+                    <li><a href="#">Ostwind</a></li>
+                    <li><a href="#">Panzer 38(t)</a></li>
+                    <li><a href="#">Panzer 38</a></li>
+                    <li><a href="#">Panzer II</a></li>
+                    <li><a href="#">Panzer III</a></li>
+                    <li><a href="#">Panzer IV</a></li>
+                    <li><a href="#">Panzer V Panther</a></li>
+                    <li><a href="#">Sd.Kfz.165 Hummel</a></li>
+                    <li><a href="#">Sturmgerschütz III</a></li>
+                    <li><a href="#">Sturmgerschütz IV</a></li>
+                    <li><a href="#">Sturm-Infanteriegerschütz 33B</a></li>
+                    <li><a href="#">Sturmpanzer II</a></li>
+                    <li><a href="#">Sturmpanzer IV</a></li>
+                    <li><a href="#">Sturmtiger</a></li>
+                    <li><a href="#">Tiger Ausf.B</a></li>
+                    <li><a href="#">Tiger</a></li>
+                    <li><a href="#">Wibelwind</a></li>
+                </ul>
+            <a><strong>Japón</strong></a>
+            <br>
+            <a href="#avionesJapón"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="#Ki-100">Kawasaki Ki-100</a></li>
+                    <li><a href="#Ki-32">Kawasaki Ki-32</a></li>
+                    <li><a href="#ki-45">Kawasaki Ki-45</a></li>
+                    <li><a href="#">kawasaki Ki-48</a></li>
+                    <li><a href="#">Kawasaki Ki-61</a></li>
+                    <li><a href="#">Mitsubishi A6M Zero</a></li>
+                    <li><a href="#">Mitsubishi Ki-109</a></li>
+                    <li><a href="#">Mitsubishi Ki-21</a></li>
+                    <li><a href="#">Mitsubishi Ki-30</a></li>
+                    <li><a href="#">Mitsubishi Ki-67</a></li>
+                    <li><a href="#">Nakajima Ki-27</a></li>
+                    <li><a href="#">Nakajima Ki-43</a></li>
+                    <li><a href="#">Nakajima Ki-44</a></li>
+                    <li><a href="#">Nakajima Ki-49</a></li>
+                    <li><a href="#">Nakajima Ki-84</a></li>
+                </ul>
+            <a href="http://127.0.0.1:5500/tanques.html#tanquesJap%C3%B3n"><b>Tanques</b></a>
+                <ul>    
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Chi-He">Tipo 1 Chi-He</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Ho-Ni">Tipo 1 Ho-Ni I</a></li>
+                    <li><a href="http://127.0.0.1:5500/tanques.html#Ho-I">Tipo 2 Ho-I</a></li>
+                    <li><a href="#">Tipo 2 Ke-To</a></li>
+                    <li><a href="#">Tipo 3 Chi-Nu</a></li>
+                    <li><a href="#">Tipo 3 Ho-Ni III</a></li>
+                    <li><a href="#">Tipo 4 Chi-To</a></li>
+                    <li><a href="#">Tipo 4 Ha-to</a></li>
+                    <li><a href="#">Tipo 4 Ho-Ro</a></li>
+                    <li><a href="#">Tipo 4 Ke-Nu</a></li>
+                    <li><a href="#">Tipo 5 Chi-Ri</a></li>
+                    <li><a href="#">Tipo 5 Ho-Ru</a></li>
+                    <li><a href="#">Tipo 5 Ke-Ho</a></li>
+                    <li><a href="#">Tipo 5 Na-To</a></li>
+                    <li><a href="#">Tipo 89 I-Go</a></li>
+                    <li><a href="#">Tipo 95 Ha-Go</a></li>
+                    <li><a href="#">Tipo 97 Chi-Ha</a></li>
+                    <li><a href="#">Tipo 98 Ke-Ni</a></li>
+                </ul>   
+            </nav>
+   
+
+        <div id="contenido">
+            <section>
+                <article class="bienvenida">
+                    <h1>Aviones de la Segunda Guerra Mundial</h1>
+                </article>
+            </section>
+
+                <!-- carrusel con bootstrap -->
+
+            <section class="secCarusel">                    
+                <div id="carouselExampleDark" class="carousel carousel-dark slide caruselVehiculos">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner tamañoImgCaruselVeh">
+                        <h2>Ultimos aviones agregados</h2>
+                        <div class="carousel-item active tamañoImgCaruselVeh" data-bs-interval="10000">
+                            <img src="./recursos/imagenes/vehiculos/me262.jpg" class="d-block w-100" alt="Messerschmitt Me 262">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>Messerschmitt Me 262</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item tamañoImgCaruselVeh" data-bs-interval="2000">
+                            <img src="./recursos/imagenes/vehiculos/SpiIX306.jpg" class="d-block w-100" alt="Spitfire">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>Spitfire</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item tamañoImgCaruselVeh">
+                            <img src="./recursos/imagenes/vehiculos/The-P-51-1024x607.jpg" class="d-block w-100" alt="P-51 Mustang">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>P-51 Mustang</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>   
+            </section>
+
+
+            <section id="contenidoInformativo">
+                <h3 id="avionesFrancia">Aviones de Francia</h3>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/vg30-24.jpg" alt="Arsenal VG-30/33"> 
+                    <h3 id="VG-30" class="centrado">Arsenal VG-30</h3>
+                    <p class="centrado">El Arsenal VG-30 fue uno de una serie de aviones de caza franceses rápidos en desarrollo al comienzo de la Segunda Guerra Mundial, pero que se desarrolló demasiado tarde para ver un servicio extenso en la Fuerza Aérea Francesa durante la Batalla de Francia. La especificación original que condujo a la serie VG se ofreció en 1936 con el fin de aumentar rápidamente el número de aviones modernos en servicio francés, al suministrar un "caza ligero" de construcción de madera que pudiera construirse rápidamente en grandes cantidades.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza.</li>
+                        <li><b>Compañía:</b> Arsenal de la Aeronáutica.</li>
+                        <li><b>Tripulación:</b> 1 (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 10,8 m, Longitud: 8,55 m, Altura: 3,31 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 2.050 kg, peso cargado: 2655 kg.</li>
+                        <li><b>Velocidad:</b> 558 km/h.</li>
+                        <li><b>Alcanze:</b> 1200 km</li>
+                        <li><b>Techo de servicio:</b> 11.000 m.</li>
+                        <li><b>Armamento:</b> 4 x 7,5 mm MAC 1934 ametralladoras, 1 x 20 mm Hispano-Suiza HS.404 cañón.</li>
+                        <li><b>Primer vuelo:</b> 25 de abril de 1939.</li>
+                        <li><b>Variantes:</b> VG-30, VG-31, VG-32, VG-33, VG-34, VG-35, VG-36, VG-37, VG-38, VG-39, VG-39bis, VG-40, VG-50, VG-60.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/bleriot-spads510-6.jpg" alt="Bleriot-spad S.510"> 
+                    <h3 id="S.510" class="centrado">Bleriot-spad S.510</h3>
+                    <p class="centrado">El Blériot SPAD S.510 fue un caza biplano monoplaza y monomotor francés . Voló por primera vez en 1933, se construyeron 60 ejemplares para la Armée de l'Air (Fuerza Aérea Francesa) y entró en servicio en 1936. El modelo permaneció en servicio como caza de entrenamiento al comienzo de la Segunda Guerra Mundial . Fue el último caza biplano francés en entrar en producción.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza biplano.</li>
+                        <li><b>Compañía:</b> Bleriot-SPAD</li>
+                        <li><b>Tripulación:</b> 1 (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 8,84 m, Longitud: 7,46 m, Altura: 3,72 m.</li>
+                        <li><b>Peso:</b> Peso vacio: 1.250 kg, peso cargado: 1.650 kg.</li>
+                        <li><b>Velocidad:</b> 370 km/h.</li>
+                        <li><b>Alcanze:</b> 875 km.</li>
+                        <li><b>Techo de servicio:</b> 10.100 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 4x MAC 1934 de 7,5 mm. </li>
+                        <li><b>Primer vuelo:</b> 6 de enero de 1933.</li>
+                        <li><b>Variantes:</b> S.510.01, s.510, s.710.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/br691-11.jpg" alt="Breguet 693"> 
+                    <h3 id="693" class="centrado">Breguet 693</h3>
+                    <p class="centrado">El avión estaba destinado a ser fácil de mantener, tolerante al vuelo y capaz de alcanzar 480 km/h a 4000 m. La robusta construcción del modelo se demostró con frecuencia y el armamento era eficaz. El rearme francés comenzó dos años más tarde que en Gran Bretaña y ninguno de estos aviones estaba disponible en cantidades suficientes para marcar la diferencia en 1940.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Avión de ataque terrestre.</li>
+                        <li><b>Compañía:</b> Georges Ricard.</li>
+                        <li><b>Tripulación:</b> 2 (piloto y artillero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 15,37 m, Longitud: 9,67 m, Altura: 3,19 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 3.010 kg, Peso cargado: 4.900 kg.</li>
+                        <li><b>Velocidad:</b> 490 km/h.</li>
+                        <li><b>Alcanze:</b> 1.350 km.</li>
+                        <li><b>Techo de servicio:</b> 8.500 m.</li>
+                        <li><b>Armamento:</b> 1 cañón Hispano-Suiza HS.404 de 20 mm, fijo y con disparo frontal, 2 ametralladoras MAC 1934 fijas de 7,5 mm (0,295 pulgadas) que disparan hacia adelante  1 x ametralladora MAC 1934 flexible de 7,5 mm con disparo hacia atrás en la cabina trasera,  1 x ametralladora MAC 1934 fija, de 7,5 mm, que dispara hacia atrás, en posición ventral, bombas: 460 kg. </li>
+                        <li><b>Primer vuelo:</b> 23 de marzo de 1938.</li>
+                        <li><b>Variantes:</b> Bre 690.01, Bre 691.01, Bre 691, Bre 693.01, Bre 693, Bre 694.01, Bre 695.01, Bre 695, Bre 696.01, Bre 697, Bre 810.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="avionesReino">Aviones de Reino Unido</h3>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/lancaster.jpg" alt="Avro Lancaster"> 
+                    <h3 id="Lancaster" class="centrado">Avro Lancaster</h3>
+                    <p class="centrado">El Avro Lancaster es un bombardero pesado británico de la Segunda Guerra Mundial. Fue diseñado y fabricado por Avro como contemporáneo del Handley Page Halifax, ambos bombarderos fueron desarrollados según las mismas especificaciones, así como del Short Stirling . Los tres aviones eran bombarderos pesados de cuatro motores adoptados por la Real Fuerza Aérea (RAF) durante la misma época.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Bombardero pesado.</li>
+                        <li><b>Compañía:</b> Avro.</li>
+                        <li><b>Tripulación:</b> 7 (piloto, ingeniero de vuelo, navegante, artillero de nariz/bombardero, operador de radio, artilleros de medio-superior y trasero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 31,09 m, Longitud: 21,13 m, Altura: 6,25 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 16.738 kg, peso cargado: 24.948 kg.</li>
+                        <li><b>Velocidad:</b> 282 km/h.</li>
+                        <li><b>Alcanze:</b> 2.530 km</li>
+                        <li><b>Techo de servicio:</b> 21.400 m.</li>
+                        <li><b>Armamento:</b>Dos ametralladoras Browning Mark II de 7,7 mm en la torreta delantera, dos ametralladoras Browning Mark II de 7,7 mm en la torreta superior y cuatro ametralladoras Browning Mark II de 7,7 mm en la torreta trasera. (Los primeros aviones tenían dos ametralladoras Browning en una torreta ventral que se apuntaban desde el interior del avión a través de un periscopio). Bombas: Carga máxima normal de bombas de 6.400 kg.</li>
+                        <li><b>Primer vuelo:</b> 9 de enero de 1941.</li>
+                        <li><b>Variantes:</b> BI, Especial BI, PR.1, BI (FE), B.II, B.II I, B.II I (Especial), ASR.III/ASR.3, GR.3/Sr.3, B.IV, VB, B.VII, BX, B.XV.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/manchester.jpg" alt="Avro Manchester"> 
+                    <h3 id="Manchester" class="centrado">Avro Manchester</h3>
+                    <p class="centrado">Aunque no se fabricó en grandes cantidades, fue el precursor del más famoso y exitoso Avro Lancaster de cuatro motores, que fue uno de los bombarderos estratégicos más capaces de la Segunda Guerra Mundial.</p>
+                    <ul>
+                        <li><b>Tipo:</b>Bombardero pesado.</li>
+                        <li><b>Compañía:</b> Avro.</li>
+                        <li><b>Tripulación:</b> 7 (piloto, ingeniero de vuelo, navegante, artillero de nariz/bombardero, operador de radio, artilleros de medio-superior y trasero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 27,46 m, Longitud: 21 m, Altura: 5,94 m.</li>
+                        <li><b>Peso:</b> Peso vacio: 14.152 kg, peso cargado: 22.680 kg.</li>
+                        <li><b>Velocidad:</b> 265 km/h.</li>
+                        <li><b>Alcanze:</b> 1.900 km.</li>
+                        <li><b>Techo de servicio:</b> 5.900 m.</li>
+                        <li><b>Armamento:</b>8 ametralladoras Browning de 7,7 mm (en torretas Nash & Thompson de nariz (2), dorsal (2) y de cola (4)), bombas: carga de bombas de 4.695 kg.</li>
+                        <li><b>Primer vuelo:</b> 25 de julio de 1939.</li>
+                        <li><b>Variantes:</b> Mánchester L7246, Mánchester L7247, Mánchester yo, Mánchester, Iowa, Mánchester IB, Mánchester IC, Mánchester II, Mánchester III BT308.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Bristol_Beaufighter.jpg" alt="Britol Beaufighter"> 
+                    <h3 id="Beaufighter" class="centrado">Britol Beaufighter</h3>
+                    <p class="centrado">Originalmente fue concebido como una variante de caza pesado del bombardero torpedero Bristol Beaufort. El Beaufighter demostró ser un caza nocturno eficaz, que entró en servicio en la Royal Air Force (RAF) durante la Batalla de Inglaterra, su gran tamaño le permitió llevar armamento pesado y un radar de interceptación aérea temprano sin grandes penalizaciones de rendimiento.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Avión de combate pesado/avión de ataque/bombardero torpedero.</li>
+                        <li><b>Compañía:</b> Compañía aeronáutica Bristol.</li>
+                        <li><b>Tripulación:</b> 2 (piloto, artillero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 17,63 m, Longitud: 12,60 m, Altura: 4,83 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 7.072 kg, Peso cargado: 11.521 kg.</li>
+                        <li><b>Velocidad:</b> 320 km/h.</li>
+                        <li><b>Alcanze:</b> 2.820 km.</li>
+                        <li><b>Techo de servicio:</b> 5.800 m.</li>
+                        <li><b>Armamento:</b> 4 cañones Hispano Mark II de 20 mm (240 rpg) en la punta, 6 ametralladoras Browning de 7,7 mm (.303) en las alas, cuatro a estribor y dos a babor (opcionales, en sustitución de los tanques de combustible internos de largo alcance) 1 x Browning de 7,7 mm operado manualmente para el observador (si está instalado), cohetes: 8 cohetes RP-3 de 27 kg, bombas: 2 bombas de 110 kg o 1 torpedo británico de 45 cm o 1 torpedo Mark 13. </li>
+                        <li><b>Primer vuelo:</b> 17 de julio de 1939.</li>
+                        <li><b>Variantes:</b> Beaufighter Mk.IF, Beaufighter Mk.IC, Beaufighter Mk.IIF, Beaufighter Mk.II I/IV, Beaufighter Mk.V, Beaufighter Mk.VI, Beaufighter Mk.VIC, Beaufighter Mk.VIF, Beaufighter Mk.VI (ITF),Beaufighter Mk.VII, Beaufighter Mk.VIII, Beaufighter Mk.IX, Beaufighter TF Mk.X, Beaufighter Mk.XIC, Beaufighter Mk.XII, Beaufighter Mk.21, Beaufighter TT Mk.10.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="avionesEE.UU">Aviones de Estado Unidos</h3>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/A20.jpg" alt="Douglas A-20 Havoc"> 
+                    <h3 id="Havoc" class="centrado">Douglas A-20 Havoc</h3>
+                    <p class="centrado">El Douglas DB-7/A-20 Havoc fue una familia de aviones de ataque, de reconocimiento, de bombarderos ligeros y cazas nocturnos fabricados por la Douglas Aircraft Company y usados por las Fuerzas Aéreas del Ejército de los Estados Unidos durante la Segunda Guerra Mundial; además sirvió con varias fuerzas aéreas aliadas, principalmente, en las de la Unión Soviética y Reino Unido. El DB-7 también fue utilizado por las Fuerzas Aéreas de Australia, Sudáfrica, Francia, y Países Bajos durante la guerra, y Brasil tras la misma. Los bombarderos fueron conocidos como Boston entre las fuerzas aéreas de los países miembros de la Commonwealth, mientras que el caza nocturno de la Real Fuerza Aérea británica fue conocido como Havoc.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Bombardero ligero, Caza nocturno.</li>
+                        <li><b>Compañía:</b> Douglas.</li>
+                        <li><b>Tripulación:</b> 2-3 (piloto, artillero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 18,7 m, Longitud: 14,6 m, Altura: 5,4 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 6827 kg, peso cargado: 9215 kg.</li>
+                        <li><b>Velocidad:</b> 546 km/h.</li>
+                        <li><b>Alcanze:</b> 1690 km</li>
+                        <li><b>Techo de servicio:</b> 7225 m.</li>
+                        <li><b>Armamento:</b> Armas de proyectiles: 4 ametralladoras fijas de 7,7 mm Browning en el morro, 2 ametralladoras flexibles de 7,7 mm Browning en la posición dorsal, 1 ametralladoras flexibles de 7,7 mm Vickers K, montada en la posición ventral, Bombas: 1900 kg.</li>
+                        <li><b>Primer vuelo:</b> 23 de enero de 1939.</li>
+                        <li><b>Variantes:</b> Boston I & II, Havoc I, Havoc-Pandora, Havoc I Turbinlite, DB-7A/Havoc II, DB-7B/Boston III, DB-73, DB-7C, A-20, A-20A, A-20B, A-20C, A-20G, A-20H, ZB-20H, A-20J/Boston IV, A-20K/Boston V, P-70, F-3A, DB-1, DB-2, O-53.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/a-36-apache-.jpg" alt="A-36 Apache"> 
+                    <h3 id="Apache" class="centrado">A-36 Apache</h3>
+                    <p class="centrado">El North American A-36 Apache (enlistado en algunas fuentes como Invader, pero también llamado Mustang) fue una versión de ataque a tierra/bombardeo en picado del North American P-51 Mustang, del que podía distinguirse por la presencia de aerofrenos rectangulares de rejilla por encima y por debajo de las alas. Un total de 500 bombarderos en picado A-36 sirvieron en el Norte de África, el Mediterráneo, Italia y el teatro China-Birmania-India durante la Segunda Guerra Mundial.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Avión de ataque/bombardero en picado.</li>
+                        <li><b>Compañía:</b> North American Aviation.</li>
+                        <li><b>Tripulación:</b> Uno (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 11,3 m, Longitud: 9,8 m, Altura: 3,7 m.</li>
+                        <li><b>Peso:</b> Peso cargado: 4535 kg.</li>
+                        <li><b>Velocidad:</b> 590 km/h.</li>
+                        <li><b>Alcanze:</b> 885 km.</li>
+                        <li><b>Techo de servicio:</b> 7650 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 6x Browning M2 de 12,7 mm (4 en las alas y 2 en el morro), Bombas: hasta 454 kg en dos soportes subalares.</li>
+                        <li><b>Primer vuelo:</b> Octubre de 1942.</li>
+                        <li><b>Variantes:</b> A-36, A-36A.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/B17.jpg" alt="Boeing B-17 Flying Fortress"> 
+                    <h3 id="Fortress" class="centrado">Boeing B-17 Flying Fortress</h3>
+                    <p class="centrado">El Boeing B-17 Flying Fortress (en español: «Fortaleza Volante») es un famoso bombardero pesado cuatrimotor de la Segunda Guerra Mundial. Realizó miles de misiones con los Aliados durante la guerra, sobre todo en Europa, aunque también tomó parte en la campaña del Pacífico, demostrando ser uno de los más fiables bombarderos de la contienda, junto con el Consolidated B-24 Liberator. Las últimas versiones de este bombardero estaban armadas con trece ametralladoras de 12,7 mm y podían cargar casi 8000 kg de bombas (dependiendo del modelo).</p>
+                    <ul>
+                        <li><b>Tipo:</b> Bombardero pesado/Bombardero estratégico.</li>
+                        <li><b>Compañía:</b> Boeing.</li>
+                        <li><b>Tripulación:</b> 10 (piloto, copiloto, navegante, bombardero/artillero de proa, ingeniero de vuelo/artillero de torreta dorsal, operador de radio, 2 artilleros de ventanas laterales, artillero de torreta ventral, artillero de cola).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 31,6 m, Longitud: 22,7 m, Altura: 5,8 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 16 391 kg, Peso cargado: 24 500 kg.</li>
+                        <li><b>Velocidad:</b> 462 km/h.</li>
+                        <li><b>Alcanze:</b> 3219 km.</li>
+                        <li><b>Techo de servicio:</b> 10 851 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 13x Browning M2 de calibre 12,7 mm (.50) montadas en 4 torretas (dorsal, ventral, proa y cola), 2 posiciones laterales traseras, 2 posiciones laterales frontales y 1 en un puesto adicional dorsal, bombas: misiones de corto alcance (menor:400 millas): 3600 kg, misiones de largo alcance (igual:800 millas): 2000 kg, Sobrecarga: 7800 kg. </li>
+                        <li><b>Primer vuelo:</b> 28 de julio de 1935.</li>
+                        <li><b>Variantes:</b> B-299, Y1B-17, B17-B, B-17C, B-17D, B-17E, B17-F, B-17G. </li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="avionesURSS">Aviones de la URSS</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Polikarpov_I-15_.jpg" alt="Polikarpov I-15"> 
+                    <h3 id="I-15" class="centrado">Polikarpov I-15</h3>
+                    <p class="centrado">El TsKB-3 se distinguía por su plano superior en gaviota, con su sección central unida al fuselaje por montantes interplanos en I, y por sus aterrizadores principales de patas independientes cantilever, en cuyas ruedas se podían montar carenados aerodinámicos.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza.</li>
+                        <li><b>Compañía:</b> Polikárpov.</li>
+                        <li><b>Tripulación:</b> Uno (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 9,2 m, Longitud: 6,3 m, Altura: 2,2 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 1320 kg, peso cargado: 1415 kg.</li>
+                        <li><b>Velocidad:</b> 370 km/h.</li>
+                        <li><b>Alcanze:</b>  530 km.</li>
+                        <li><b>Techo de servicio:</b> 9500 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 4x PV-1 de 7,62 mm ó 2x BS de 12,7 mm, cohetes: 6x cohetes RS-82.</li>
+                        <li><b>Primer vuelo:</b> Octubre 1933.</li>
+                        <li><b>Variantes:</b> I-15, I-15bis, I-152, I-152GK, I-152TK, I-15ter.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/I-16-Soviet-Fighter-Tittle.jpg" alt="Polikarpov I-16"> 
+                    <h3 id="I-16" class="centrado">Polikarpov I-16</h3>
+                    <p class="centrado">El I-16 fue introducido a mediados de la década de 1930 y formó la espina dorsal de la Fuerza Aérea Soviética al inicio de la Segunda Guerra Mundial. Tuvo una actuación destacada en la segunda guerra sino-japonesa, en la Batalla de Jaljin Gol entre soviéticos y japoneses, y en la guerra civil española, donde fue llamado Mosca por el bando republicano y Rata por el Franquista. El apodo que le dieron los finlandeses al I-16 fue Siipiorava (ardilla voladora).</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza.</li>
+                        <li><b>Compañía:</b> Polikarpov.</li>
+                        <li><b>Tripulación:</b> Uno (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 9 m, Longitud: 6,1 m, Altura: 3,3 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 1490 kg, peso cargado: 1941 kg.</li>
+                        <li><b>Velocidad:</b> 525 km/h.</li>
+                        <li><b>Alcanze:</b> 700 km.</li>
+                        <li><b>Techo de servicio:</b> 9700 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 2x ShKAS de 7,62 mm encima del motor, cañones: 2x ShVAK de 20 mm en las alas, otros: 6x cohetes RS-82 o hasta 500 kg de bombas.</li>
+                        <li><b>Primer vuelo:</b> 30 de diciembre de 1933.</li>
+                        <li><b>Variantes:</b> I-16 Tipo 1/Zveno, I-16 Tipo 4, I-16 Tipo 5, I-16 Tipo 5 Sturmovik, I-16 Tipo 5/Zveno, I-16 Tipo 6, I-16 Tipo 10 (Motor Cyclone, Motor M-25B TK), I-16 Tipo 17, I-16 Tipo 18, I-16 Tipo 24 (Motor M-25E, Motor M-62, Motor M-62TK, Motor M-63, Motor M-63 TK), I-16 Tipo 29, I-16 Tipo P, I-16 Tipo P (TsKB-12 P), I-16 SP.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/il10.jpg" alt="Ilyushin Il-10"> 
+                    <h3 id="Il-10" class="centrado">Ilyushin Il-10</h3>
+                    <p class="centrado"> Con el progreso de la Segunda Guerra Mundial, las autoridades soviéticas comenzaron a planificar al que sería su sucesor del Il-2.  El principal objetivo fue el aumento de su velocidad y maniobrabilidad a baja altitud, que le permitiera evadirse de las armas antiaéreas de pequeño calibre, que era el mayor peligro al que se enfrentaban los aviones de ataque a tierra, y era uno de los principales fallos del Il-2.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Avión de ataque a tierra.</li>
+                        <li><b>Compañía:</b> Ilyushin.</li>
+                        <li><b>Tripulación:</b> dos (piloto y artillero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 13,40 m, Longitud: 11,12 m, Altura: 4,10 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 4.675 kg, Peso cargado: 6.345 kg.</li>
+                        <li><b>Velocidad:</b> 550 km/h.</li>
+                        <li><b>Alcanze:</b> 800 km</li>
+                        <li><b>Techo de servicio:</b> 4.000 m.</li>
+                        <li><b>Armamento:</b> Armas de proyectiles: 2 cañones automáticos Nudelman-Suranov NS-23 de 23 mm en las alas con 150 proyectiles por cañón, 1 ametralladora UBT de 12,7 mm en la torreta dorsal con 190 proyectiles, otros: más de 600 kg (1,320 lb) para distintas armas (descritas en el texto).</li>
+                        <li><b>Primer vuelo:</b> 18 de abril de 1944.</li>
+                        <li><b>Variantes:</b> Il-10, Il-10M.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="avionesAlemania">Aviones de Alemania</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/BF 109 A.jpg" alt="Messerschmitt Bf 109"> 
+                    <h3 id="109" class="centrado">Messerschmitt Bf 109</h3>
+                    <p class="centrado">Fue uno de los primeros cazas realmente modernos de la época, incluyendo características tales como una construcción monocasco totalmente metálica, carlinga cerrada y tren de aterrizaje retráctil. Originalmente concebido como un interceptor, posteriormente fueron desarrollados modelos para cumplir con múltiples tareas, actuando como escolta de bombarderos, cazabombardero, caza diurno, nocturno y todo tiempo, avión de ataque a tierra y como avión de reconocimiento.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza.</li>
+                        <li><b>Compañía:</b> Bayerische Flugzeugwerke/Messerschmitt.</li>
+                        <li><b>Tripulación:</b> Uno (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 9,9 m, Longitud: 9 m, Altura: 2,6 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 2247 kg, Peso cargado: 3148 kg.</li>
+                        <li><b>Velocidad:</b> Velocidad máxima: 640 km/h, Régimen de ascenso: 17 m/s</li>
+                        <li><b>Alcanze:</b> 850 km, 1000 km con depósito de combustible auxiliar.</li>
+                        <li><b>Techo de servicio:</b> 12 000 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 2x MG 131 de 13 mm, con 300 proyectiles cada una, sobre el motor, Cañones: 1× MG 151/20 de 20 mm, con 200 proyectiles, en el eje de la hélice (motorkanone). La variante G-6/U4 monta en su lugar un MK 108 de 30 mm con 65 proyectiles. 2× MG 151/20 de 20 mm adicionales en pods subalares con 135 proyectiles (kit opcional Rüstsatz VI'). Bombas: 1 de 250 kg, 4 de 50 kg</li>
+                        <li><b>Primer vuelo:</b> 28 de mayo de 1935</li>
+                        <li><b>Variantes:</b> Bf 109B (B-O, B-1, B-2), Bf 109C (C-1, C-2, C-3), Bf 109D (D-1), Bf 109E (E-1, E-3, E-4, E-5, E,6, E-7, E-8, E-9), Bf 109F (F-0, F-1, F-2, F-3, F-4, F-5, F-6), Bf 109G (G-0, G-1, G-2, G-3, G-4, G-5, G-6, G-8, G-10, G-12, G-14), Bf 109K (K-4), Bf 109T, Bf 109H.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/bf110.jpg" alt="Messerschmitt Bf 110"> 
+                    <h3 id="110" class="centrado">Messerschmitt Bf 110</h3>
+                    <p class="centrado">El Messerschmitt Bf 110 fue el mejor caza bimotor con que contó Alemania durante la Segunda Guerra Mundial. A pesar de estar en inferioridad técnica frente a la mayor parte de interceptores desplegados por los Aliados, sus buenas prestaciones en otros aspectos como bombardero o aparato nocturno, lo convirtieron en un excelente avión al servicio del Tercer Reich.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza-bombardero.</li>
+                        <li><b>Compañía:</b> Bayerische Flugzeugwerke.</li>
+                        <li><b>Tripulación:</b> 2 (piloto y artillero dorsal), 3 (+ operador de radio) en las versiones de caza nocturno.</li>
+                        <li><b>Dimensiones:</b> Envergadura: 25 m. Longitud: 10 m. Altura: 50 m</li>
+                        <li><b>Peso:</b> Cargado: 7.000 kg. Vacío: 4.500 kg.</li>
+                        <li><b>Velocidad:</b> Velocidad máxima: 560 km/h. Trepada inicial: 687 m/min</li>
+                        <li><b>Alcance:</b> 775 km.</li>
+                        <li><b>Techo de servicio:</b> 10.000 m</li>
+                        <li><b>Armamento:</b> Dos cañones Oerlikon MG-FF de 20 mm, cuatro ametralladoras MG-17 de 7’92 mm, una MG-15 de 7’92 mm, 2 bombas ETC500 de 500 kg y dos bombas ETC50 de 50 kg.</li>
+                        <li><b>Primer vuelo:</b> 12 de Mayo de 1936.</li>
+                        <li><b>Variantes:</b> Bf 110A-0, Bf 110B (B-0, B-2, B-3), Bf 110C (C-0, C-4, C-5, C-7), Bf 110D (D-0, D-2, D-3), Bf 110E (E-0, E-1, E-2, E-3), Bf 110F (F-1, F-2, F-3, F-4), Bf 110G (G-1, G-2, G-3, G-4), Bf 110H.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/d1-Dornier-Do-17-aa.jpg" alt="Do 17"> 
+                    <h3 id="17" class="centrado">Do 17</h3>
+                    <p class="centrado">El Do 17 fue diseñado con dos motores montados en una estructura de ala semialta y con una configuración de doble cola con dos estabilizadores verticales. El modelo fue popular entre sus tripulantes debido a su buena maniobrabilidad a baja altitud, que hizo al Dornier capaz de realizar ataques de bombardeo por sorpresa. Su esbelto y delgado fuselaje hacía que fuera un avión más difícil de abatir que otros bombarderos alemanes, ya que se presentaba como un objetivo de menor tamaño. En teoría, podía ser tan rápido que podía dejar atrás a los cazas enemigos.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Bombardero ligero.</li>
+                        <li><b>Compañía:</b> Dornier Flugzeugwerke.</li>
+                        <li><b>Tripulación:</b> 4 (piloto, bombardero/artillero, 2 artilleros).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 18 m, Longitud: 16,2 m, Altura: 4,6 m.</li>
+                        <li><b>Peso:</b> Cargado: 6800 kg, vacío: 4500 kg.</li>
+                        <li><b>Velocidad:</b> 380 km/h.</li>
+                        <li><b>Alcanze:</b> 1593 km.</li>
+                        <li><b>Techo de servicio:</b> 5500 m.</li>
+                        <li><b>Armamento:</b> Ametralladoras: 3x MG 15 de 7,92 mm (a veces equipaba hasta 5 ametralladoras), bombas: 1000 kg.</li>
+                        <li><b>Primer vuelo:</b> 23 de noviembre de 1934.</li>
+                        <li><b>Variantes:</b> Do 17E-1, Do 17F-1, Do 17K (Do 17Kb-1, Do 17Ka-2, Do 17Ka-3), Do 17L, Do 17M (Do 17M-1), Do 17R, Do 17P (Do 17P-1), Do 17S-0, Do 17U (Do 17U-0, Do 17U-1), Do 17Z (Do 17Z-0, Do 17Z-1, Do 17Z-2,Do 17Z-3, Do 17Z-4, Do 17Z-5, Do 17Z-6 Kauz I, Do 17Z-10 Kauz II).</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="avionesJapón">Aviones de Japón</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/ki100.webp" alt="Kawasaki Ki-100"> 
+                    <h3 id="Ki-100" class="centrado">Kawasaki Ki-100</h3>
+                    <p class="centrado">A principios de 1945, 275 Ki-100 fueron modificados a partir de los Ki-61 como medida de emergencia para aceptar un motor radial Mitsubishi Ha-112 -II de 14 cilindros en lugar del motor Kawasaki Ha-40 original con V-12 en línea invertido, lo que resultó en uno de los mejores interceptores utilizados por el Ejército durante la guerra. Combinaba una excelente potencia y maniobrabilidad, y desde las primeras misiones operativas en marzo de 1945 hasta el final de la guerra, se desempeñó mejor que la mayoría de los cazas IJAAS.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza/Interceptor.</li>
+                        <li><b>Compañía:</b> Kawasaki Kokuki Kogyo KK.</li>
+                        <li><b>Tripulación:</b> Uno (piloto).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 12 m, Longitud: 8,82 m, Altura: 3,75 m.</li>
+                        <li><b>Peso:</b> Peso vacío: 2.525 kg, Peso cargado: 3.495 kg.</li>
+                        <li><b>Velocidad:</b> 580 km/h.</li>
+                        <li><b>Alcanze:</b> 1.400 km.</li>
+                        <li><b>Techo de servicio:</b> 11.000 m.</li>
+                        <li><b>Armamento:</b> Cañones: 2 cañones Ho-5 de 20 mm montados en el fuselaje y 2 ametralladoras Ho-103 de 12,7 mm montadas en las alas, bombas: 2 bombas de 250 kg, transportadas en lugar de tanques de combustible en los mismos puntos de apoyo fuera del tren de aterrizaje.</li>
+                        <li><b>Primer vuelo:</b> 1 de febrero de 1945.</li>
+                        <li><b>Variantes:</b> Ki-100, Ki-100-I- KO, Ki-100-I-Otsu, Ki-100-II.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Ki-32.jpg" alt="Kawasaki Ki-32"> 
+                    <h3 id="Ki-32" class="centrado">Kawasaki Ki-32</h3>
+                    <p class="centrado">El Ki-32 fue desarrollado en respuesta a una especificación del Ejército Imperial Japonés de mayo de 1936 para reemplazar el bombardero ligero Kawasaki Ki-3 con un avión diseñado y construido completamente en el país.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Bombardero ligero.</li>
+                        <li><b>Compañía:</b> Kawasaki Kōkūki Kōgyō KK.</li>
+                        <li><b>Tripulación:</b> 2 (piloto y artillero).</li>
+                        <li><b>Dimensiones:</b> Envergadura: 15,0 m. Longitud: 11,65 m. Altura: 2,90 m</li>
+                        <li><b>Peso:</b> Cargado: 3.760 kg, Vacío: 1.066 kg.</li>
+                        <li><b>Velocidad:</b> 423 km/h.</li>
+                        <li><b>Alcance:</b> 1.965 km.</li>
+                        <li><b>Techo de servicio:</b> 8.920 m</li>
+                        <li><b>Armamento:</b> 2 ametralladoras de 7,7 mm, bombas: 450 kg.</li>
+                        <li><b>Primer vuelo:</b> Marzo de 1937.</li>
+                        <li><b>Variantes:</b> Ki-32.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/KI452.jpg" alt="Kawasaki Ki-45"> 
+                    <h3 id="ki-45" class="centrado">Kawasaki Ki-45</h3>
+                    <p class="centrado">Originalmente sirvió como caza de escolta de largo alcance, pero el diseño, como la mayoría de los cazas pesados de la época, fue presa de cazas monomotor más pequeños, ligeros y ágiles. Como tal, el Ki-45 sirvió como interceptor y caza de ataque diurno y nocturno. Diseño y desarrollo en respuesta a la rápida aparición en Europa de cazas pesados bimotores como el Messerschmitt Bf 110, el ejército ordenó el desarrollo de un caza bimotor y biplaza en 1937, y asignó a la propuesta de Kawasaki Shipbuilding la designación de Ki-38. Esto solo llegó a ser una maqueta, pero en diciembre de ese año el ejército ordenó un prototipo funcional como el Ki-45.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Caza pesado, Interceptador, Caza nocturno, Caza de escolta, Cazabombardero/Caza de ataque.</li>
+                        <li><b>Compañía:</b> Kawasaki Kōkūki Kōgyō KK.</li>
+                        <li><b>Tripulación:</b> 2 (piloto, artillero).</li>
+                        <li><b>Dimenciones:</b> Envergadura: 15,02 m, Longitud: 11 m, Altura: 3,7 m.</li>
+                        <li><b>Peso:</b> Cargado: 8.820 kg, vacío: 4.000 kg.</li>
+                        <li><b>Velocidad:</b> 540 km/h.</li>
+                        <li><b>Alcanze:</b> 2.000 km.</li>
+                        <li><b>Techo de servicio:</b> 10.000 m.</li>
+                        <li><b>Armamento:</b> 1 cañón Ho-203 de 37 mm, 1 cañón Ho-3 de 20 mm, 1 ametralladora Tipo 98 de 7,92 mm en un montaje flexible en la cabina trasera.</li>
+                        <li><b>Primer vuelo:</b> Enero de 1939.</li>
+                        <li><b>Variantes:</b> Ki-45, Ki-45 Tipo 1, Ki-45KAI, Ki-45KAIa (Ko), Ki-45 KAIb (otsu), Ki-45 KAIc (hei/chino), Ki-45 KAId (tei/chino), Ki-45 II.</li>
+                    </ul>
+                </article>
+            </section>
+        </div>    
+
+
+        <footer class="footer">
+            <div id="logoFooter">
+                <img src="./recursos/imagenes/fondos/images.png" alt="logo de la pagina">
+            </div>
+            <div class="divCuadrado">
+                <p class="texto"><strong>preguntanos...</strong></p>
+                <p class="rectangulo">Nombre y apellido.</p>
+                <p class="rectangulo">Email.</p>
+                <p class="rectangulo">Mensaje...</p>    
+                <a class="boton" href="#"><button>Enviar.</button></a>
+            </div>
+            <span>
+                <ol class="redes">
+                    <li><i class="lab la-instagram"></i></li>
+                    <li><i class="lab la-facebook-f"></i></li>
+                    <li><i class="lab la-twitter"></i></li>
+                    <li><i class="las la-at"></i></li>
+                    <li><i class="lab la-youtube"></i></li>
+                </ol>    
+                <div class="footerFlex">
+                    <a class="menufooter" href="#">Inicio</a>
+                    <a class="menufooter" href="http://127.0.0.1:5500/index.html#noticias">Noticias</a>
+                    <a class="menufooter" href="http://127.0.0.1:5500/index.html#Quien%C3%A9sSomos">Quienés somos</a>
+                    <p class="menufooter1"><i class="las la-copyright"></i> 2024 Poder Militar - Todos los derechos reservados</p>
+                </div>
+            </span>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Times New Roma;
+    color: white;
+}
+
+body {
+    width: auto;
+    background-color: black;
+    position: relative;
+    padding-bottom: 280px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-corner {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(46, 46, 46, .5);
+    border-radius: 5px;
+    border-right: 2px solid ;
+    border-left: 2px solid ;
+}
+
+
+/*---css haeder---*/
+
+
+header {
+    background-image: url(../imagenes/fondos/depositphotos_317799900-stock-photo-war-concept-military-silhouettes-fighting.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    height: 150px;
+    padding: 0 25px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+#logo img {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    cursor:pointer;
+}   
+
+.header #logo img:hover {
+    transform: scale(1.1);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header nav ul  {
+    display: flex;
+}
+
+.header nav ul a {
+    font-size: 30px;
+}
+
+.header #logo img {
+    border-radius: 100%;
+    height: 80px;
+    width: auto;
+    box-shadow: 0 0 10px black;
+}
+
+#titulo {
+    font-size: 45px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.principal a {
+    text-decoration: none;
+    color: white;
+}
+
+.principal {
+    list-style: none;
+    gap: 40px;
+}
+
+#logoBusqueda button {
+    background-color: #202020;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+.principal a:hover {
+    color: black;
+}
+
+.principal li:hover {
+    transform: scale(1.1);
+}
+
+.header nav a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.header nav button:hover {
+    transform: scale(1.1);
+}
+
+#logoBusqueda button:hover {
+    background-color: black;
+}
+
+
+/*---css nav horizontal---*/
+
+
+#navHorizontal {
+    background-color: #101010;
+    position: sticky;
+    top: 150px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    padding-right: 5%;
+    z-index: 4;
+}
+
+nav div button:hover {
+    transform: scale(1.1);
+}
+
+#navHorizontal .btn {
+    background-color: black;
+    border-color:black;
+    color: grey;
+    box-shadow: 0 0 20px black;
+}
+
+#navHorizontal strong {
+    color: grey;
+}
+
+.dropdown-item {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*---css del menuvertical---*/
+
+
+.menuVertical {
+    position: absolute;
+    width: 100%;
+    max-width: 220px;
+    background: #101010;
+    overflow: auto;
+    height: auto;
+    z-index: 3;
+}
+
+.menuVertical strong {
+    font-size: 35px;
+}
+
+.menuVertical a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.menuVertical b {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.menuVertical li {
+    list-style: none;
+}
+
+.menuVertical ul a {
+    text-decoration: none;
+    color: #c5c5c5d3;
+}
+
+.menuVertical ul a:hover {
+    color: #464646;
+}
+
+.menuVertical::-webkit-scrollbar {
+    width: 8px;
+    background-color: #101010;
+}
+
+.menuVertical::-webkit-scrollbar-thumb {
+    background: #151515;
+    border-radius: 5px;
+}
+
+.menuVertical::-webkit-scrollbar-corner {
+    background-color: #101010;
+}
+
+.menuVertical::-webkit-scrollbar-track{
+    border: 7px solid #101010;
+}
+
+
+/*---css contenido---*/
+
+
+#contenido {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+/*---css bienvenida--*/
+
+
+section .bienvenida {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black inset;
+    margin-top: 50px;
+    margin-left: 590px;
+    text-align: center;
+}
+
+
+/*---css carrusel vehiculos---*/
+
+
+.secCarusel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative ;
+    margin-left: 220px;
+}
+
+.tamañoImgCaruselVeh img {
+    min-height: 500px;
+    min-width: 1000px;
+    max-height: 520px;
+    max-width: 1020px;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.tamañoImgCaruselVeh h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.caruselVehiculos a {
+    text-decoration: none;
+    color: #424242;
+} 
+
+.caruselVehiculos a:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.estTextoVeh {
+    background-color: rgba(16, 16, 16, .5);
+    border-radius: 5px;
+    margin: 0;
+    padding: 5px;
+}
+
+.estTextoVeh h5:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.estTextoVeh h5 {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/*---css bloques informativos--*/
+
+
+#contenidoInformativo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 590px;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+h3:hover {
+    color: #464646;
+}
+
+.informacionVeh {
+    width: auto;
+    height: 50%;
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black inset;
+}
+
+.informacionVeh img {
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.informacionVeh b {
+    font-size: 25px;
+}
+
+.informacionVeh h3 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.centrado {
+    text-align: center;
+}
+
+
+/*---css solo footer---*/
+
+
+footer {
+    position: absolute;
+    font-family: arial;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/istockphoto-1142581656-2048x2048.jpg);
+    background-size: cover;
+    background-position-y: 215%;
+    height: 240px;
+    width: 100%;
+    bottom: 0;
+    z-index: 5;
+}
+
+body .footer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+footer #logoFooter img {
+    height: 80px;
+    width: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 10px black;
+}
+
+.footer .divCuadrado .rectangulo {
+    color: black;
+}
+
+#logoFooter {
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 48%;
+    cursor:pointer;
+}
+
+#logoFooter:hover {
+    transform: scale(1.1);
+}
+
+.divCuadrado {
+    width: 350px;
+    height: 220px;
+    font-size: 28px;
+    border: 2px solid black;
+    background-color: #464646;
+    padding: 3px;
+    box-shadow: 0 0 5px black;
+}
+
+.texto {
+    color: white;
+    margin: 1px;
+    margin-left: 8px;
+}
+
+.rectangulo {
+    background-color: #848484;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 3px;
+    cursor: text;
+    box-shadow: 0 0 20px black;
+}
+
+.footer div button {
+    background-color: #959595;
+    color: black;
+    border: 1px solid black;
+    padding: 0 5px;
+    font-size: 18px;
+    margin-left: 79%;
+    box-shadow: 0 0 5px black;
+}
+
+.footer button:hover {
+    background-color: #464646;
+}
+
+.footer span li:hover {
+    transform: scale(1.1);
+}
+
+.footer span a:hover {
+    transform: scale(1.1);
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.redes i {
+    font-size: 50px;
+    color: black;
+}
+
+.redes i:hover {
+    color: #202020;
+}
+
+.footerFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menufooter {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.menufooter:hover {
+    color: #424242;
+}
+
+.menufooter1 {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.footer span div i {
+    color: black;
+    font-size: 12px;
+}

@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+        <link rel="stylesheet" type="text/css" href="./recursos/css/EstiloTanques.css">
+       <title>Poder Militar</title>
+    </head>
+    <body>
+       <header class="header">
+            <div id="logo">
+                <img  src="./recursos/imagenes/fondos/images.png" alt="logo de la pagina">
+            </div>
+            <h1><strong id="titulo">Poder Militar</strong></h1>    
+            <nav>
+                <ul class="principal">
+                    <li><a href="http://127.0.0.1:5500/index.html#noticias">Noticias</a></li>
+                    <li><a href="http://127.0.0.1:5500/index.html#Quien%C3%A9sSomos">Quienés somos</a></li>
+                </ul>
+                <a id="logoBusqueda" href="#"><button>Busqueda <i class="las la-search"></i></button></a>
+            </nav>
+        </header>
+
+            <!-- lista desplegable con bootstrap -->
+             
+        
+        <nav id="navHorizontal">
+            <div  class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Francia</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Reino Unido</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>EE.UU</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>URSS</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Alemania</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+            <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Japón</strong>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="aviones.html">Aviones</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="tanques.html">Tanques</a></li>
+                </ul>
+            </div>
+        </nav>  
+
+        <nav class="menuVertical">
+            <a><strong>Francia</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesFrancia"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#VG-30">Arsenal VG-30</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#S.510">Bleriot-spad S.510</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#693">Breguet 693</a></li>
+                    <li><a href="#">Caudron C.714</a></li>
+                    <li><a href="#">Dewoitine D.520</a></li>
+                    <li><a href="#">LeO 451</a></li>
+                    <li><a href="#">Morane-Saulnier MS.406</a></li>
+                    <li><a href="#">Potez 63</a></li>
+                </ul>    
+            <a href="#tanquesFrancia"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="#Char">Char B1</a></li>
+                    <li><a href="#FCM">FCM 36</a></li>
+                    <li><a href="#Hotchkiss">Hotchkiss H35</a></li>
+                    <li><a href="#">Panhard</a></li>
+                    <li><a href="#">Renault R35</a></li>
+                    <li><a href="#">Renault ACG1</a></li>
+                    <li><a href="#">Renault AMR 33</a></li>
+                    <li><a href="#">Renault UE 31</a></li>
+                    <li><a href="#">Side Gnome y Rhone</a></li>
+                    <li><a href="#">Somua S35</a></li>
+                </ul>
+            <a href=""><strong>Reino Unido</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesReino"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#">Avro Lancaster</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Manchester">Avro Manchester</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Beaufighter">Britol Beaufighter</a></li>
+                    <li><a href="#">Britol Beaufort</a></li>
+                    <li><a href="#">Britol Blenheim</a></li>
+                    <li><a href="#">Britol Brigand</a></li>
+                    <li><a href="#">DH.98 Mosquito</a></li>
+                    <li><a href="#">Fairey Firefly</a></li>
+                    <li><a href="#">Gloster Gauntiet</a></li>
+                    <li><a href="#">Gloster Gladiator</a></li>
+                    <li><a href="#">Handley Page Halifax</a></li>
+                    <li><a href="#">Hawker Hurricane</a></li>
+                    <li><a href="#">Hawker Tempest</a></li>
+                    <li><a href="#">Hawker Typhoon</a></li>
+                    <li><a href="#">Short Stirlig</a></li>
+                    <li><a href="#">Supermarine Seafire</a></li>
+                    <li><a href="#">Supermarine Spitifire</a></li>
+                    <li><a href="#">Supermarine Stranraer</a></li>
+                    <li><a href="#">Vickers Wellington</a></li>
+                </ul>   
+            <a href="#tanquesReino"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="#Comet">A34 Comet</a></li>
+                    <li><a href="#Churchill">Churchill</a></li>
+                    <li><a href="#Cruiser">Cruiser Mk I</a></li>
+                    <li><a href="#">Cruiser Mk II</a></li>
+                    <li><a href="#">Crusander</a></li>
+                    <li><a href="#">M3 Lee/Grant</a></li>
+                    <li><a href="#">Matilda I</a></li>
+                    <li><a href="#">Matilda II</a></li>
+                    <li><a href="#">Mk VIII Cromwell</a></li>
+                    <li><a href="#">Sherman Firefly</a></li>
+                    <li><a href="#">Tanque Rino</a></li>
+                    <li><a href="#">TOG II</a></li>
+                    <li><a href="#">TOG1</a></li>
+                    <li><a href="#">Valentine Mk.II</a></li>
+                </ul>
+            <a><strong>EE.UU</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesEE.UU"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Havoc">A-20 Havoc</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Apache">A-36 Apache</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Fortress">B-17 Flying Fortress</a></li>
+                    <li><a href="#">B-24 Liberator</a></li>
+                    <li><a href="#">B-25 Mitchell</a></li>
+                    <li><a href="#">B-29 Superfortress</a></li>
+                    <li><a href="#">BTD Destroyer</a></li>
+                    <li><a href="#">F2A Buffalo</a></li>
+                    <li><a href="#">F4F Wildcat</a></li>
+                    <li><a href="#">F4U Corsair</a></li>
+                    <li><a href="#">F6F Hellcat</a></li>
+                    <li><a href="#">P-38 Lightning</a></li>
+                    <li><a href="#">P-35</a></li>
+                    <li><a href="#">P-36 Hawk</a></li>
+                    <li><a href="#">P-39 Airacobra</a></li>
+                    <li><a href="#">P-40 Warhawk</a></li>
+                    <li><a href="#">P-47 Thunderbolt</a></li>
+                    <li><a href="#">P-51D Mustang</a></li>
+                    <li><a href="#">P-61 Black Widow</a></li>
+                    <li><a href="#">P-63 Kingcobra</a></li>
+                    <li><a href="#">SB2</a></li>
+                    <li><a href="#">SBD</a></li>
+                    <li><a href="#">T-6 Texan</a></li>
+                    <li><a href="#">TBF Avenger</a></li>
+                </ul>
+            <a href="#tanquesEE.UU"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="#M2">M2</a></li>
+                    <li><a href="#Lee/Grant">M3 Lee/Grant</a></li>
+                    <li><a href="#Stuart">M3 Stuart</a></li>
+                    <li><a href="#">M4 Sherman</a></li>
+                    <li><a href="#">M10 Wolverine</a></li>
+                    <li><a href="#">M18 Hellcat</a></li>
+                    <li><a href="#">M22 Locust</a></li>
+                    <li><a href="#">M24 Chaffee</a></li>
+                    <li><a href="#">M26 Pershing</a></li>
+                    <li><a href="#">M36 Jackson</a></li>
+                </ul>
+            <a><strong>URSS</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesURSS"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#I-15">I-15</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#I-16">I-16</a></li>
+                    <li><a href="#http://127.0.0.1:5500/aviones.html#Il-10">Il-10</a></li>
+                    <li><a href="#">Il-2</a></li>
+                    <li><a href="#">Il-4</a></li>
+                    <li><a href="#">La-5</a></li>
+                    <li><a href="#">La-7</a></li>
+                    <li><a href="#">LaGG-3</a></li>
+                    <li><a href="#">MiG-3</a></li>
+                    <li><a href="#">Pe-2</a></li>
+                    <li><a href="#">Pe-3</a></li>
+                    <li><a href="#">Pe-8</a></li>
+                    <li><a href="#">Po-2</a></li>
+                    <li><a href="#">SB</a></li>
+                    <li><a href="#">Su-2</a></li>
+                    <li><a href="#">TB-3</a></li>
+                    <li><a href="#">Tu-2</a></li>
+                    <li><a href="#">Yak-1</a></li>
+                    <li><a href="#">Yak-3</a></li>
+                    <li><a href="#">Yak-9</a></li>
+                    <li><a href="#">Yer-2</a></li>
+                </ul>
+            <a href="#tanquesURSS"><b>Tanques</b></a>
+                <ul>
+                    <li><a href="#BT-7">BT-7</a></li>
+                    <li><a href="#IS-2">IS-2</a></li>
+                    <li><a href="#KV-1">KV-1</a></li>
+                    <li><a href="#">KV-2</a></li>
+                    <li><a href="#">T-26</a></li>
+                    <li><a href="#">T-28</a></li>
+                    <li><a href="#">T-34</a></li>
+                    <li><a href="#">T-35</a></li>
+                    <li><a href="#">T-37A</a></li>
+                    <li><a href="#">T-38</a></li>
+                    <li><a href="#">T-40</a></li>
+                    <li><a href="#">T-50</a></li>
+                    <li><a href="#">T-60</a></li>
+                    <li><a href="#">T-70</a></li>
+                </ul>
+            <a><strong>Alemania</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesAlemania"><b>Aviones</b></a>    
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#109">Bf 109</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#110">Bf 110</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#17">Do 17</a></li>
+                    <li><a href="#">Do 215</a></li>
+                    <li><a href="#">Do 335</a></li>
+                    <li><a href="#">Fw 190</a></li>
+                    <li><a href="#">Fw 200</a></li>
+                    <li><a href="#">He 111</a></li>
+                    <li><a href="#">He 118</a></li>
+                    <li><a href="#">He 177</a></li>
+                    <li><a href="#">Hs 129</a></li>
+                    <li><a href="#">Ju 188</a></li>
+                    <li><a href="#">Ju 87</a></li>
+                    <li><a href="#">Ju 88</a></li>
+                    <li><a href="#">Me 163</a></li>
+                    <li><a href="#">Me 262</a></li>
+                    <li><a href="#">Ta 152</a></li>
+                </ul>
+            <a href="#tanquesAlemania"><b>Tanques</b></a>
+                <ul> 
+                    <li><a href="#Dicker">Dicker Max</a></li>
+                    <li><a href="#Flakpanzer">Flakpanzer 38(t)</a></li>
+                    <li><a href="#Grille">Grille</a></li>
+                    <li><a href="#">Jagdpanther</a></li>
+                    <li><a href="#">Jagdpanzer IV</a></li>
+                    <li><a href="#">Jagdtiger</a></li>
+                    <li><a href="#">Jagpanzer 38(t)</a></li>
+                    <li><a href="#">Kugelblitz</a></li>
+                    <li><a href="#">Mander II</a></li>
+                    <li><a href="#">Mander III</a></li>
+                    <li><a href="#">Nashorn</a></li>
+                    <li><a href="#">Ostwind</a></li>
+                    <li><a href="#">Panzer 38(t)</a></li>
+                    <li><a href="#">Panzer 38</a></li>
+                    <li><a href="#">Panzer II</a></li>
+                    <li><a href="#">Panzer III</a></li>
+                    <li><a href="#">Panzer IV</a></li>
+                    <li><a href="#">Panzer V Panther</a></li>
+                    <li><a href="#">Sd.Kfz.165 Hummel</a></li>
+                    <li><a href="#">Sturmgerschütz III</a></li>
+                    <li><a href="#">Sturmgerschütz IV</a></li>
+                    <li><a href="#">Sturm-Infanteriegerschütz 33B</a></li>
+                    <li><a href="#">Sturmpanzer II</a></li>
+                    <li><a href="#">Sturmpanzer IV</a></li>
+                    <li><a href="#">Sturmtiger</a></li>
+                    <li><a href="#">Tiger Ausf.B</a></li>
+                    <li><a href="#">Tiger</a></li>
+                    <li><a href="#">Wibelwind</a></li>
+                </ul>
+            <a><strong>Japón</strong></a>
+            <br>
+            <a href="http://127.0.0.1:5500/aviones.html#avionesJap%C3%B3n"><b>Aviones</b></a>
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Ki-100">Kawasaki Ki-100</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#Ki-32">Kawasaki Ki-32</a></li>
+                    <li><a href="http://127.0.0.1:5500/aviones.html#ki-45">Kawasaki Ki-45</a></li>
+                    <li><a href="#">kawasaki Ki-48</a></li>
+                    <li><a href="#">Kawasaki Ki-61</a></li>
+                    <li><a href="#">Mitsubishi A6M Zero</a></li>
+                    <li><a href="#">Mitsubishi Ki-109</a></li>
+                    <li><a href="#">Mitsubishi Ki-21</a></li>
+                    <li><a href="#">Mitsubishi Ki-30</a></li>
+                    <li><a href="#">Mitsubishi Ki-67</a></li>
+                    <li><a href="#">Nakajima Ki-27</a></li>
+                    <li><a href="#">Nakajima Ki-43</a></li>
+                    <li><a href="#">Nakajima Ki-44</a></li>
+                    <li><a href="#">Nakajima Ki-49</a></li>
+                    <li><a href="#">Nakajima Ki-84</a></li>
+                </ul>
+            <a href="#tanquesJapón"><b>Tanques</b></a>
+                <ul>    
+                    <li><a href="#Chi-He">Tipo 1 Chi-He</a></li>
+                    <li><a href="#Ho-Ni">Tipo 1 Ho-Ni I</a></li>
+                    <li><a href="#Ho-I">Tipo 2 Ho-I</a></li>
+                    <li><a href="#">Tipo 2 Ke-To</a></li>
+                    <li><a href="#">Tipo 3 Chi-Nu</a></li>
+                    <li><a href="#">Tipo 3 Ho-Ni III</a></li>
+                    <li><a href="#">Tipo 4 Chi-To</a></li>
+                    <li><a href="#">Tipo 4 Ha-to</a></li>
+                    <li><a href="#">Tipo 4 Ho-Ro</a></li>
+                    <li><a href="#">Tipo 4 Ke-Nu</a></li>
+                    <li><a href="#">Tipo 5 Chi-Ri</a></li>
+                    <li><a href="#">Tipo 5 Ho-Ru</a></li>
+                    <li><a href="#">Tipo 5 Ke-Ho</a></li>
+                    <li><a href="#">Tipo 5 Na-To</a></li>
+                    <li><a href="#">Tipo 89 I-Go</a></li>
+                    <li><a href="#">Tipo 95 Ha-Go</a></li>
+                    <li><a href="#">Tipo 97 Chi-Ha</a></li>
+                    <li><a href="#">Tipo 98 Ke-Ni</a></li>
+                </ul>
+        </nav>
+        
+
+        <div id="contenido">
+            <section>
+                <article class="bienvenida">
+                    <h1>Tanques de la Segunda Guerra Mundial</h1>
+                </article>
+            </section>
+
+                <!-- carrusel con bootstrap -->
+
+            <section class="secCarusel">                    
+                <div id="carouselExampleDark" class="carousel carousel-dark slide caruselVehiculos">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner tamañoImgCaruselVeh">
+                        <h2>Ultimos tanques agregados</h2>
+                        <div class="carousel-item active tamañoImgCaruselVeh" data-bs-interval="10000">
+                            <img src="./recursos/imagenes/vehiculos/tiger.jpg" class="d-block w-100" alt="Tiger">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>Tiger</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item tamañoImgCaruselVeh" data-bs-interval="2000">
+                            <img src="./recursos/imagenes/vehiculos/m4.jpg" class="d-block w-100" alt="M4 Sherman">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>M4 Sherman</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item tamañoImgCaruselVeh">
+                            <img src="./recursos/imagenes/vehiculos/KV-2_abandoned.webp" class="d-block w-100" alt="KV-2">
+                            <div class="carousel-caption d-none d-md-block estTextoVeh">
+                                <h5>KV-2</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>   
+            </section>
+
+
+            <section id="contenidoInformativo">
+                <h3 id="tanquesFrancia">Tanques de Francia</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/char_b1.jpg" alt="Char B1"> 
+                    <h3 id="Char" class="centrado">Char B1</h3>
+                    <p class="centrado">El Char B1 era un aparato especializado en penetrar la línea de defensa enemiga. Originalmente pensado como vehículo de artillería autopropulsada con un cañón de 75 mm en el casco; luego se agregó una torreta con un cañón de 47 mm para permitirle operar como tanque y equipar a las divisiones acorazadas del arma de infantería.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque pesado.</li>
+                        <li><b>Compañía:</b> Renault.</li>
+                        <li><b>Tripulación:</b> 4 (comandante/operador de radio, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 6,37 m, Anchura 2,46 m, Altura 2,79 m.</li>
+                        <li><b>Peso:</b> Peso 28 t.</li>
+                        <li><b>Velocidad:</b> 28 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Obús en barbilla ABS SA 35 de 75 mm, arma secundaria	Cañón SA 35 47 mm, dos ametralladoras MAC M31 de 7,5 mm.</li>
+                        <li><b>Variantes:</b> Char B1, Char B1 bis.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/FCM36.jpg" alt="FCM 36"> 
+                    <h3 id="FCM" class="centrado">FCM 36</h3>
+                    <p class="centrado">El FCM 36, designado Char léger modèle 1936 FCM por el Ejército Francés, fue un carro de infantería ligero producido para el Ejército Francés justo antes de la Segunda Guerra Mundial. Debido a eso, se fabricó en relativamente pocas unidades, en torno a un centenar. Se caracterizaba por su blindaje en forma piramidal y estar propulsado por un motor diésel.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque ligero de infantería.</li>
+                        <li><b>Compañía:</b> FCM.</li>
+                        <li><b>Tripulación:</b> 2 (comandante, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,46 m, Anchura 2,14 m, Altura 2,2 m.</li>
+                        <li><b>Peso:</b> Peso 12.35 t.</li>
+                        <li><b>Velocidad:</b> 24 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Puteaux SA 18 de 37 mm L/21, arma secundaria	Ametralladora MAC 31 de 7,5 mm.</li>
+                        <li><b>Armadura:</b> Frente del casco: 40 mm, frente torreta: 40 mm, lateral torreta: 40 mm, lateral casco: 20+20 mm.</li>
+                        <li><b>Variantes:</b> FCM 36.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Hotchkiss H35.jpg" alt="Hotchkiss H35"> 
+                    <h3 id="Hotchkiss" class="centrado">Hotchkiss H35</h3>
+                    <p class="centrado"> A pesar de haber sido diseñado como un carro de apoyo a la infantería lento pero bien blindado, inicialmente fue rechazado por la Infantería francesa porque resultaba difícil de controlar mientras se conducía campo a través, y en su lugar fue adoptado por la Caballería en 1936.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque ligero.</li>
+                        <li><b>Compañía:</b> Hotchkiss.</li>
+                        <li><b>Tripulación:</b> 2 (comandante, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,22 m, Anchura 1,95 m, Altura 2,15 m.</li>
+                        <li><b>Peso:</b> Peso 10,6 t, 12,1 t (completamente cargado).</li>
+                        <li><b>Velocidad:</b> 37 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria cañón de 37 mm SA 18 o SA 38, arma secundaria ametralladora MAC mle 1931.</li>
+                        <li><b>Armadura:</b> Frente del casco: 34 mm en un ángulo de 60°, frente de la torreta: 45 mm, mantelete: 25 mm, lado del casco: 29-34 mm.</li>
+                        <li><b>Variantes:</b> H35, H39.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="tanquesReino">Tanques de Reino Unido</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/A34.jpeg" alt="A34 Comet"> 
+                    <h3 id="Comet" class="centrado">A34 Comet</h3>
+                    <p class="centrado">Para incrementar la potencia de fuego, en el Comet se montó la nueva versión compacta del cañón de 17 libras denominada 77 mm HV en una torreta de acero fundidio y de perfil más bajo que la de su antecesor. Este arma era eficaz contra los carros alemanes de finales de la guerra, incluido el Panther a medio alcance y el Tiger. No era tan potente como el 17 libras original pero, al disparar proyectiles APDS, lograba una capacidad de penetración de blindaje superior al cañón 7,5 cm KwK 42 con munición estándar del Panther, el cual sería su equivalente alemán.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque crucero.</li>
+                        <li><b>Compañía:</b> Leyland Motors.</li>
+                        <li><b>Tripulación:</b> 5 (comandante, artillero, cargador, conductor, ametrallador).</li>
+                        <li><b>Dimenciones:</b> Longitud 6,55 m, Anchura 3,07 m, Altura 2,59 m.</li>
+                        <li><b>Peso:</b> Peso 33,57 t,</li>
+                        <li><b>Velocidad:</b> 51 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	77 mm HV de 76,2 mm, arma secundaria 2 ametralladoras Besa de 7,92 mm.</li>
+                        <li><b>Armadura:</b> Frente del casco: 64 mm a 90°, frente de la torreta: 102 mm, mantelete: 102 mm.</li>
+                        <li><b>Variantes:</b> A34.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/churchil.webp" alt="Churchill"> 
+                    <h3 id="Churchill" class="centrado">Churchill</h3>
+                    <p class="centrado"> Es conocido por su extravagante diseño con un chasis alargado apoyado en múltiples ruedas pequeñas con unas grandes orugas que rodeaban la parte superior del propio casco, dándole una apariencia larga, alta y estrecha. Era lento pero destacaba por su grueso blindaje, su capacidad para escalar pendientes pronunciadas, y su polivalencia, pues fue usado como base de muchos vehículos especializados. Fue uno de los carros de combate Aliados más pesados de la guerra.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque pesado infanteria.</li>
+                        <li><b>Compañía:</b> Vauxhall Motors y otras empresas.</li>
+                        <li><b>Tripulación:</b> 5 (comandante, artillero de torre, cargador/operador de radio, conductor, artillero de casco).</li>
+                        <li><b>Dimenciones:</b> Longitud 7,44 m, Anchura 2,74 m, Altura 2,49 m.</li>
+                        <li><b>Peso:</b> Peso 38,5 t.</li>
+                        <li><b>Velocidad:</b> 26 km/h.</li>
+                        <li><b>Armamento:</b> Cañón QF 2-pdr (Mk.I y II) o QF 6-pdr (Mk.III y IV) o QF 75 mm (Mk.VI y VII) o QF 95 mm (Mk.V y VIII), arma secundaria	Ametralladora Besa de 7,92 mm y obús QF 3-inch (Mk.I) o una segunda ametralladora Besa (resto de variantes).</li>
+                        <li><b>Armadura:</b> Frente del casco: 89 mm, frente de la torreta: 89 m, lateral casco: 76 mm, lateral torreta: 76 mm.</li>
+                        <li><b>Variantes:</b> Mk.I, Mk.II, Mk.III, Mk.IV, Mk.IV NA 75, Mk.V CS, Mk.VI, Mk.VII, Mk.VIII CS.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Cruiser_Tank_Mk_I.jpg" alt="Cruiser Mk I"> 
+                    <h3 id="Cruiser" class="centrado">Cruiser Mk I</h3>
+                    <p class="centrado">Fue el primer tanque de crucero: un tanque rápido diseñado para sobrepasar las líneas principales enemigas y atacar las líneas de comunicación en la retaguardia del enemigo, así como a otros carros de combate enemigos.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque crucero.</li>
+                        <li><b>Compañía:</b> Vickers, Harland & Wolff.</li>
+                        <li><b>Tripulación:</b> 6 (comandante, artillero, cargador, conductor, 2 ametralldores).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,8 m, Anchura 2,5 m, Altura 2,65 m.</li>
+                        <li><b>Peso:</b> Peso 12,2 t.</li>
+                        <li><b>Velocidad:</b> 40 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón QF 2-pdr de 40 mm con 100 proyectiles o Obús de 94 mm con 40 proyectiles (versión CS) , arma secundaria	3 ametralladoras Vickers de 7,7 mm.</li>
+                        <li><b>Armadura:</b> Frente del casco: 14 mm, frente de la torreta: 14 mm, lado del casco: 10 mm, lado de la torreta: 12 mm.</li>
+                        <li><b>Variantes:</b> Mark I (A9), Mark I CS.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="tanquesEE.UU">Tanques de Estado Unidos</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/M2.jpg" alt="M2A4"> 
+                    <h3 id="M2" class="centrado">M2</h3>
+                    <p class="centrado">El M2 fue un tanque ligero estadounidense del período de entreguerras, que fue empleado de forma limitada durante la Segunda Guerra Mundial. El modelo más común, el M2A4, estaba armado con un cañón M5 37 mm y cinco ametralladoras Browning M1919.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque ligero.</li>
+                        <li><b>Compañía:</b> Rock Island Arsenal.</li>
+                        <li><b>Tripulación:</b> 4 (comandante/cargador, artillero, conductor y conductor auxiliar).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,43 m, Anchura 2,47 m, Altura 2,65 m.</li>
+                        <li><b>Peso:</b> Peso 11,6 t.</li>
+                        <li><b>Velocidad:</b> 58 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	1 x M5 37 mm, con 103 proyectiles / M2 HB de 12,7 mm, con 1.800 cartuchos, arma secundaria	5 x Browning M1919, con 8.470 cartuchos.</li>
+                        <li><b>Armadura:</b> Frente del casco: 100 mm en un ángulo de 60°, glacis inferior: 100 mm en un ángulo de 30°, frente de la torreta: 100 mm (redondeado), mantelete: 120 mm (redondeado), lado del casco: 90-130 mm en 9-25 °, lado de la torreta: 90 mm en un ángulo de 20°.</li>
+                        <li><b>Variantes:</b> M2A1,  M2A2, M2A3, M2A4.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/M3 LEE.jpg" alt="M3 Lee"> 
+                    <h3 id="Lee/Grant" class="centrado">M3 Lee/Grant</h3>
+                    <p class="centrado">Se trata de un diseño de transición a medio camino entre el primer carro medio estadounidense M2 Medium Tank armado con un cañón de 37 mm, y el altamente producido M4 Medium Tank (Sherman) armado con cañón de 75 mm, el M3 disponía de ambos cañones en un diseño con capacidad para siete tripulantes que no resultó muy exitoso pero que ofreció un incremento significativo de las capacidades defensivas y ofensivas a las fuerzas blindadas de los Aliados Occidentales.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque pesado.</li>
+                        <li><b>Compañía:</b> Rock Island Arsenal, Detroit Tank Arsenal, American Locomotive Company, Baldwin Locomotive Works.</li>
+                        <li><b>Tripulación:</b> 7 (comandante, artillero y cargador 37 mm, artillero y cargador 75 mm, conductor y asistente del conductor) o 6 (versión Grant británica).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,64 m, Anchura 2,72 m, Altura 2,12 m.</li>
+                        <li><b>Peso:</b> Peso 27,4 t.</li>
+                        <li><b>Velocidad:</b> 34 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 75 mm M2 o M3 (casco), cañón de 37 mm M5/M6 (torreta), arma secundaria	2, 3 o 4 ametralladoras M1919A4.</li>
+                        <li><b>Armadura:</b> Frente del casco: 51 mm, frente de la torreta: 51 mm , lado del casco: 38 mm, lado de la torreta: 51 mm.</li>
+                        <li><b>Variantes:</b> Grant Mk.I, Grant Mk.II, Lee Mk.I, Lee Mk.II, Lee Mk.III, Lee Mk.IV, Lee Mk.V, Lee Mk.VI.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/M3-Stuart-Fort-Knox-1.jpg" alt="M3 Stuart"> 
+                    <h3 id="Stuart" class="centrado">M3 Stuart</h3>
+                    <p class="centrado"> Antes de la entrada de Estados Unidos en la guerra se suministró a las fuerzas británicas y de la Commonwealth en régimen de préstamo y arriendo, donde recibió el nombre de Stuart en honor del general confederado de la guerra civil estadounidense J. E. B. Stuart. Se utilizaron por primera vez en combate en la Campaña del Norte de África, en la cual unos 170 fueron utilizados por las fuerzas británicas para la Operación Crusader a finales de año. A partir de entonces, fue utilizado por las fuerzas estadounidenses y de los demás Aliados. Fue el primer modelo de carro de combate tripulado por estadounidenses de la Segunda Guerra Mundial en enfrentarse al enemigo en un combate acorazado cuando se usaron en Filipinas en diciembre de 1941 contra los japoneses.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque ligero.</li>
+                        <li><b>Compañía:</b> American Car & Foundry Co.</li>
+                        <li><b>Tripulación:</b> 4 (conductor, asistente de conductor, artillero y comandante).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,53 m, Anchura 2,24 m, Altura 2,39 m.</li>
+                        <li><b>Peso:</b> Peso 12,7 t.</li>
+                        <li><b>Velocidad:</b> 58 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 37 mm M5/M6 con 103-106 proyectiles, arma secundaria 3-5 ametralladoras M1919A4.</li>
+                        <li><b>Armadura:</b> Frente del casco: 44 mm, frente de la torreta: 38 mm , lado del casco: 25 mm, lado de la torreta: 25 mm.</li>
+                        <li><b>Variantes:</b> M3, M3 diesel, M3A1, M3A1 diesel, M3A3, M5, M5A1.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="tanquesURSS">Tanques de la URSS</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/BT-7_.webp" alt="BT-7"> 
+                    <h3 id="BT-7" class="centrado">BT-7</h3>
+                    <p class="centrado">Fue producido en distintas variantes y en grandes cantidades entre 1935 y 1941. Se trataba de un modelo con un nuevo casco parcialmente soldado, y ligeramente más grande que el de sus antecesores, provisto de un nuevo motor más potente y fiable. Este propulsor fue el Mikulin M-17T de gasolina, aunque más adelante también se creó en una versión diésel incorporando el Járkov V-2, el que es convertiría en el motor universal de los blindados soviéticos de la Segunda Guerra Mundial.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque de caballería.</li>
+                        <li><b>Compañía:</b> KhPZ en Járkov.</li>
+                        <li><b>Tripulación:</b> 3 (comandante, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,66 m, Anchura 2,29 m, Altura 2,42 m.</li>
+                        <li><b>Peso:</b> Peso 13,8 t.</li>
+                        <li><b>Velocidad:</b> 62-86 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 45 mm Mod. 1934/38 (20-K) o Obús KT-28 de 76,2 mm, arma secundaria 1-3 ametralladoras DT.</li>
+                        <li><b>Armadura:</b> Frente del casco: 22 mm, frente de la torreta: 15 mm , lado del casco: 13 mm, lado de la torreta: 13 mm.</li>
+                        <li><b>Variantes:</b> Mod. 35, Mod. 37, BT-7M, BT-7A..</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/IS-2.png" alt="IS-2"> 
+                    <h3 id="IS-2" class="centrado">IS-2</h3>
+                    <p class="centrado">El IS-2, o Iósif Stalin-2 en honor al líder soviético Iósif Stalin, fue un tanque pesado soviético creado durante la Segunda Guerra Mundial como tanque de ruptura. Su primera acción fue en febrero de 1944 en la Batalla de Korsun-Cherkasy y fue ampliamente utilizado por el Ejército Rojo durante la etapa final de la guerra.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque pesado.</li>
+                        <li><b>Compañía:</b> Zhozef Kotin, Nikolay Dukhov.</li>
+                        <li><b>Tripulación:</b> 4 (comandante/operador de radio, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 9,90 m, Anchura 3,09 m, Altura 2,73 m.</li>
+                        <li><b>Peso:</b> Peso 46 t, 53 t (completamente cargado).</li>
+                        <li><b>Velocidad:</b> 37 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria Cañón D-25T de 122 mm Arma secundaria 3 x ametralladoras DT de 7,62 mm más 1 x ametralladora DShK de 12,7mm.</li>
+                        <li><b>Armadura:</b> Frente del casco: 100 mm en un ángulo de 60°, glacis inferior: 100 mm en un ángulo de 30°, frente de la torreta: 100 mm (redondeado), mantelete: 120 mm (redondeado), lado del casco: 90-130 mm en 9-25 °, lado de la torreta: 90 mm en un ángulo de 20°.</li>
+                        <li><b>Variantes:</b> IS-2, IS-2M.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/KV-1.jpg" alt="KV-1"> 
+                    <h3 id="KV-1" class="centrado">KV-1</h3>
+                    <p class="centrado"> El KV-1 fue el primer tanque pesado de la serie de vehículos de combate pesados Kliment Voroshilov desarrollados en la Unión Soviética durante la Segunda Guerra Mundial. Los carros KV-1 eran conocidos por su gruesa protección blindada durante las primeras etapas de la guerra, especialmente durante el primer año de la invasión alemana de la Unión Soviética. Aunque en pequeño número, en ciertas situaciones, incluso un solo KV-1 apoyado por infantería podía detener grandes formaciones alemanas. Esto hizo que recibiera el apodo de "Russischer Koloss" ("Coloso ruso"), ya que era prácticamente inmune a los cañones anticarro de 37 mm y a las primeras versiones de Panzer III y Panzer IV desplegados por el Ejército Alemán en la Operación Barbarroja.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque pesado.</li>
+                        <li><b>Compañía:</b> LKZ / Fábrica Kírov N.º 100 (Leningrado / Cheliábinsk) y ChKZ (Cheliábinsk).</li>
+                        <li><b>Tripulación:</b> 5 (comandante, operador de radio, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 6,75 m, Anchura 3,32 m, Altura 2,71 m.</li>
+                        <li><b>Peso:</b> Peso 43,5 t.</li>
+                        <li><b>Velocidad:</b> 30-40 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 76,2 mm L-11, F-32 o ZiS-5, arma secundaria 3 ametralladoras DT de 7,62 mm.</li>
+                        <li><b>Armadura:</b> Frente del casco: 40 mm en un ángulo de 60°, frente de la torreta: 75 mm, lado del casco: 75 mm, lado de la torreta: 75 mm.</li>
+                        <li><b>Variantes:</b> KV-1A, KV-1E, KV-1B, KV-1C, KV-1S.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="tanquesAlemania">Tanques de Alemania</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/DICKER MAX.jpg" alt="Dicker Max"> 
+                    <h3 id="Dicker" class="centrado">Dicker Max</h3>
+                    <p class="centrado">El 10,5 cm K gepanzerte Selbstfahrlafette, abreviado 10,5 cm K (gp.Sfl.), llamado Panzer Selbstfahrlafette IV Ausf. A (Pz.Sfl. IVa) durante su desarrollo y apodado coloquialmente como "Dicker Max" ("El gordo Max"), fue un prototipo de cañón autopropulsado alemán concebido inicialmente en 1939 como un destructor de búnkers para emplear contra las defensas de la Línea Maginot francesa. Estaba basado en un chasis derivado del Panzer IV y armado con un cañón pesado 10,5 cm schwere Kanone 18.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Cazacarros pesado.</li>
+                        <li><b>Compañía:</b> Krupp.</li>
+                        <li><b>Tripulación:</b> 5 (conductor, comandante, artillero, 2 cargadores).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,8 m, Anchura 2,86 m, Altura 2,53 m.</li>
+                        <li><b>Peso:</b> Peso 22 t.</li>
+                        <li><b>Velocidad:</b> 27 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón 10,5 cm sK 18.</li>
+                        <li><b>Armadura:</b> Frente del casco: 50 mm, frente de la torreta: 30 mm, mantelete: 120 mm, lado del casco: 20 mm, lado de la torreta: 20 mm.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/flak.png" alt="Flakpanzer 38(t)"> 
+                    <h3 id="Flakpanzer" class="centrado">Flakpanzer 38(t)</h3>
+                    <p class="centrado">El Flakpanzer 38(t), nombrado oficialmente 2 cm FlaK 38 auf Geschützwagen 38(t) Ausf. M y numerado Sd.Kfz. 140 por la Oficina de Armamento del Ejército Alemán, fue un vehículo blindado antiaéreo usado en las divisiones Panzer alemanas entre 1944 y 1945 para protegerse de los cazabombarderos de los Aliados, especialmente en el Frente Occidental. Consistía en un chasis derivado del Panzer 38(t) armado con un cañón automático de 20 mm.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Artillería antiaérea autopropulsada.</li>
+                        <li><b>Compañía:</b> BMM.</li>
+                        <li><b>Tripulación:</b> 4 (comandante/operador de radio, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,61 m, Anchura 2,15 m, Altura 2,25 m.</li>
+                        <li><b>Peso:</b> Peso 9,8 t.</li>
+                        <li><b>Velocidad:</b> 42 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón 2 cm FlaK 38 con 1.040 proyectiles.</li>
+                        <li><b>Armadura:</b> Frente del casco: 15 mm, frente del escudo: 15 mm, lado del casco: 15 mm, lado del escudo: 10 mm.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/grille.jpg" alt="Grille"> 
+                    <h3 id="Grille" class="centrado">Grille</h3>
+                    <p class="centrado">El Sturmpanzer 38(t) Grille ("grillo") fue un cañón autopropulsado de calibre 150 mm fabricado en Checoslovaquia entre 1943 y 1945 para el Ejército Alemán con el chasis del carro ligero checo Panzer 38(t) y el cañón pesado 15 cm sIG 33 alemán. Se construyó en dos versiones distintas de chasis: el Ausf. H usaba un chasis similar al carro ligero en el que se sustituía la superestructura por un compartimento semiabierto que albergaba el voluminoso cañón y a toda la tripulación; y por otra parte, el Ausf. M/K empleaba un nuevo chasis creado especialmente para el montaje de cañones autopropulsados, este disponía de motor central y un compartimento de combate trasero más eficiente.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Cañón autopropulsado.</li>
+                        <li><b>Compañía:</b> BMM.</li>
+                        <li><b>Tripulación:</b> 4 (comandante/operador de radio, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 4,95 m, Anchura 2,15 m, Altura 2,4 m.</li>
+                        <li><b>Peso:</b> Peso 11,5 t.</li>
+                        <li><b>Velocidad:</b> 35 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón pesado 15 cm sIG 33, arma secundaria ametralladora MG 42.</li>
+                        <li><b>Armadura:</b> Frente del casco: 50 mm, frente de la torreta: 25 mm (redondeado), lado del casco: 15 mm, lado de la torreta: 15 mm.</li>
+                        <li><b>Variantes:</b> Ausf. H, Ausf. M/K.</li>
+                    </ul>
+                </article>
+                <br>
+                <h3 id="tanquesJapón">Tanques de Japón</h3>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Type_1_Chi-Hereal.webp" alt="Tipo 1 Chi-He"> 
+                    <h3 id="Chi-He" class="centrado">Tipo 1 Chi-He</h3>
+                    <p class="centrado">Se trata de una versión mejorada del Tipo 97 Chi-Ha. Tenía un cañón principal más potente, un motor más capaz y un blindaje más grueso. Fue el primer tanque japonés en tener equipo de radio como medio de comunicación estándar. La producción del tanque no comenzó hasta 1943, debido a la mayor prioridad que se le daba en la asignación del acero a la Armada Imperial para la construcción de buques de guerra. Se construyeron un total de 170 unidades que se asignaron a la defensa de las islas japonesas contra la previsible invasión de los Aliados.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque mediano.</li>
+                        <li><b>Compañía:</b> Mitsubishi J, Sagami RZ.</li>
+                        <li><b>Tripulación:</b> 5 (comandante, artillero, cargador, conductor, ametralldor).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,5 m, Anchura 2,2 m, Altura 2,38 m.</li>
+                        <li><b>Peso:</b> Peso 17,2 t,.</li>
+                        <li><b>Velocidad:</b> 44 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 47 mm Tipo 1, arma secundaria	2 ametralladoras de 7,7 mm Tipo 97.</li>
+                        <li><b>Armadura:</b> Frente de la torreta: 50 mm.</li>
+                    </ul>
+                </article>
+                <br> 
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/ho ni.jpg" alt="Tipo 1 Ho-Ni I<"> 
+                    <h3 id="Ho-Ni" class="centrado">Tipo 1 Ho-Ni I</h3>
+                    <p class="centrado">Tuvo una acción de combate limitada y se desplegó por primera vez en la Batalla de Luzón en Filipinas en 1945. Hubo variantes mejoradas conocidas como Ho-Ni II y Ho-Ni III. Los tres modelos se produjeron en cantidades limitadas.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Cazacarros.</li>
+                        <li><b>Compañía:</b> Hitachi.</li>
+                        <li><b>Tripulación:</b> 3 (comandante, artillero, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,9 m, Anchura 2,29 m, Altura 2,39 m.</li>
+                        <li><b>Peso:</b> Peso 15,4 t.</li>
+                        <li><b>Velocidad:</b> 38 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 75 mm Tipo 90.</li>
+                        <li><b>Armadura:</b> Frente del casco: 16 mm, frente de la torreta: 51 mm, lado del casco: 9 mm.</li>
+                        <li><b>Variantes:</b> Ho-Ni II, Ho-Ni III.</li>
+                    </ul>
+                </article>
+                <br>
+                <article class="informacionVeh">
+                    <img src="./recursos/imagenes/vehiculos/Ｔype_2_Ho-I.jpg"  alt="Tipo 2 Ho-I"> 
+                    <h3 id="Ho-I" class="centrado">Tipo 2 Ho-I</h3>
+                    <p class="centrado"> fue un carro de apoyo japonés de la Segunda Guerra Mundial derivado del tanque medio Tipo 1 Chi-He. En concepto, era similar a las primeras versiones del Panzer IV de cañón corto alemán, ya que fue diseñado como un obús autopropulsado destinado a proporcionar fuego de apoyo cercano. Con su cañón corto de 75 mm disponía de una mayor potencia de fuego de alto explosivo contra fortificaciones y cañones antitanque enemigos que otros modelos de tanques.</p>
+                    <ul>
+                        <li><b>Tipo:</b> Tanque de infantería.</li>
+                        <li><b>Compañía:</b> Mitsubishi.</li>
+                        <li><b>Tripulación:</b> 4 (comandante, artillero, cargador, conductor).</li>
+                        <li><b>Dimenciones:</b> Longitud 5,73 m, Anchura 2,33 m, Altura 2,58 m.</li>
+                        <li><b>Peso:</b> Peso 16,1 t.</li>
+                        <li><b>Velocidad:</b> 44 km/h.</li>
+                        <li><b>Armamento:</b> Arma primaria	Cañón de 75 mm Tipo 99, arma secundaria	Ametralladora de 7,7 mm Tipo 97.</li>
+                        <li><b>Armadura:</b> Frente del casco: 26 mm, frente de la torreta: 40 mm.</li>
+                    </ul>
+                </article>
+            </section>
+        </div>    
+
+
+        <footer class="footer">
+            <div id="logoFooter">
+                <img src="./recursos/imagenes/fondos/images.png" alt="logo de la pagina">
+            </div>
+            <div class="divCuadrado">
+                <p class="texto"><strong>preguntanos...</strong></p>
+                <p class="rectangulo">Nombre y apellido.</p>
+                <p class="rectangulo">Email.</p>
+                <p class="rectangulo">Mensaje...</p>    
+                <a class="boton" href="#"><button>Enviar.</button></a>
+            </div>
+            <span>
+                <ol class="redes">
+                    <li><i class="lab la-instagram"></i></li>
+                    <li><i class="lab la-facebook-f"></i></li>
+                    <li><i class="lab la-twitter"></i></li>
+                    <li><i class="las la-at"></i></li>
+                    <li><i class="lab la-youtube"></i></li>
+                </ol>    
+                <div class="footerFlex">
+                    <a class="menufooter" href="#">Inicio</a>
+                    <a class="menufooter" href="http://127.0.0.1:5500/index.html#noticias">Noticias</a>
+                    <a class="menufooter" href="http://127.0.0.1:5500/index.html#Quien%C3%A9sSomos">Quienés somos</a>
+                    <p class="menufooter1"><i class="las la-copyright"></i> 2024 Poder Militar - Todos los derechos reservados</p>
+                </div>
+            </span>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
