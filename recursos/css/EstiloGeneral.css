@@ -7,11 +7,21 @@
 }
 
 body {
-    width: auto;
     background-color: black;
     position: relative;
-    padding-bottom: 240px;
 }
+
+body {
+    padding-top: 150px;
+}
+
+.ancla:before {       
+    display: block;
+    content: " ";
+    margin-top: -520px;
+    height: 520px;  
+    visibility: hidden; 
+  }
 
 body::-webkit-scrollbar {
     width: 10px;
@@ -38,9 +48,10 @@ header {
     background-position-y: 50%;
     height: 150px;
     padding: 0 25px;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 5;
+    width: 100%;
 }
 
 
@@ -133,12 +144,12 @@ header {
 
 #navHorizontal {
     background-color: #101010;
-    position: sticky;
+    position: fixed;
+    width: 90%;
+    left: 220px;
     top: 150px;
     display: flex;
-    justify-content: flex-end;
-    gap: 150px;
-    padding-right: 5%;
+    justify-content: space-evenly;
     z-index: 4;
 }
 
@@ -167,11 +178,12 @@ nav div button:hover {
 
 
 .menuVertical {
-    position: sticky;
-    width: 100%;
-    max-width: 220px;
+    position: fixed;
+    width: 220px;
+    height: 820px;
+    margin-bottom: 240px;
+    top: 150px;
     background: #101010;
-    height: 1350px;
     overflow: auto;
     z-index: 3;
 }
@@ -181,7 +193,7 @@ nav div button:hover {
 }
 
 .menuVertical a {
-    margin-left: 15px;
+    margin-left: 22px;
     text-decoration: none;
 }
 
@@ -222,171 +234,24 @@ nav div button:hover {
 }
 
 
-/*---css contenido---*/
-
-
-.contenido {
-    position: absolute;
-    top: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-
-/*---css bienvenida--*/
-
-
-section .bienvenida {
-    position: relative;
-    width: 50%;
-    height: 50%;
-    background-color: #202020;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px black inset;
-    margin-top: 50px;
-    margin-left: 590px;
-    text-align: center;
-}
-
-
-/*---css carrusel noticias---*/
-
-
-.secCarusel {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative ;
-    margin-left: 220px;
-}
-
-.caruselNoticias h2 {
-    text-align: center;
-    font-size: 55px;
-    font-weight: 600;
-}
-
-.tamañoImgCaruselNot img {
-    min-height: 500px;
-    min-width: 1000px;
-    max-height: 520px;
-    max-width: 1020px;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.estTexto {
-    background-color: rgba(16, 16, 16, .5);
-    color: white;
-    border-radius: 5px;
-    margin-top: 0;
-    padding: 0;
-    width: 1000px;
-    left: 10px;
-    text-align: center;
-}
-
-.estTexto h5 {
-    font-size: 35px;
-}
-
-.estTexto h5:hover {
-    transform: scale(1.1);
-}
-
-.estTexto p {
-    color: #bdbdbd;
-    font-size: 25px;
-    margin: 0;
-    padding: 0;
-}
-
-
-/*---css carrusel vehiculos---*/
-
-
-.contenedorCar {
-    background-color: #202020;
-    border-radius: 5px;
-    margin: 50px;
-}
-
-.car1 {
-    float: left;
-    margin: 20px;
-}
-
-.car2 {
-    float: right;
-    margin: 20px;
-}
-
-.caruselVehiculos a {
-    text-decoration: none;
-    color: #424242;
-} 
-
-.caruselVehiculos a:hover {
-    transform: scale(1.1);
-    color: black;
-}
-
-.tamañoImgCaruselVeh img {
-    min-height: 250px;
-    min-width: 500px;
-    max-height: 260px;
-    max-width: 510px;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-
-.estTextoVeh {
-    background-color: rgba(16, 16, 16, .5);
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
-}
-
-.nombre {
-    color: white;
-}
-
-.estTextoVeh h5:hover {
-    transform: scale(1.1);
-    color: black;
-}
-
-.estTextoVeh h5 {
-    font-size: 35px;
-}
-
-
 /*---css solo footer---*/
 
 
 footer {
-    position: absolute;
+    position: relative;
     font-family: arial;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/fondos/istockphoto-1142581656-2048x2048.jpg);
     background-size: cover;
-    background-position-y: 215%;
+    background-position-y: 223%;
     height: 240px;
-    width: 100%;
-    bottom: 0;
-    z-index: 5;
-}
-
-body .footer {
-    display: flex;
-    align-items: flex-end;
+    width:89%;
+    left: 210px;
+    margin-top: 50px;
 }
 
 .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding: 10px 20px;
 }
 
@@ -404,7 +269,7 @@ footer #logoFooter img {
 #logoFooter {
     position: absolute;
     margin-top: 138px;
-    margin-left: 48%;
+    margin-left: 47.5%;
     cursor:pointer;
 }
 

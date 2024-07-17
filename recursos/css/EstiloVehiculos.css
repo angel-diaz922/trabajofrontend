@@ -110,6 +110,7 @@ h3:hover {
     padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 20px black inset;
+    margin-bottom: 25px;
 }
 
 .informacionVeh img {
